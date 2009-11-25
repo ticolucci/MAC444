@@ -8,8 +8,10 @@
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
     <!ENTITY Ontology1258388399307 "http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#" >
+    <!ENTITY Soda "http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Soda:" >
     <!ENTITY Informação "http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Informa&#231;&#227;o:" >
     <!ENTITY O_Oráculo_Bibliográfico "http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#O_Or&#225;culo_Bibliogr&#225;fico:" >
+    <!ENTITY Free_products_of_units_in_algebras_II "http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Free_products_of_units_in_algebras_II:" >
 ]>
 
 
@@ -17,12 +19,14 @@
      xml:base="http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:Free_products_of_units_in_algebras_II="&Ontology1258388399307;Free_products_of_units_in_algebras_II:"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:Ontology1258388399307="http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#"
      xmlns:O_Oráculo_Bibliográfico="&Ontology1258388399307;O_Or&#225;culo_Bibliogr&#225;fico:"
-     xmlns:Informação="&Ontology1258388399307;Informa&#231;&#227;o:">
+     xmlns:Informação="&Ontology1258388399307;Informa&#231;&#227;o:"
+     xmlns:Soda="&Ontology1258388399307;Soda:">
     <owl:Ontology rdf:about=""/>
     
 
@@ -298,6 +302,66 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#1983 -->
+
+    <owl:Thing rdf:about="#1983"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#1995 -->
+
+    <owl:Thing rdf:about="#1995">
+        <rdf:type rdf:resource="#Ano"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#2000 -->
+
+    <owl:Thing rdf:about="#2000"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#2001 -->
+
+    <owl:Thing rdf:about="#2001"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#2004 -->
+
+    <owl:Thing rdf:about="#2004"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#2005 -->
+
+    <owl:Thing rdf:about="#2005"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#2006 -->
+
+    <owl:Thing rdf:about="#2006"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#2007 -->
+
+    <owl:Thing rdf:about="#2007"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Alguns_Problemas_de_Enumeracao_Em_Geometria -->
+
+    <owl:Thing rdf:about="#Alguns_Problemas_de_Enumeracao_Em_Geometria">
+        <rdf:type rdf:resource="#Artigo_em_Confer&#234;ncia"/>
+        <publicou_em rdf:resource="#1983"/>
+        <publicado_por rdf:resource="#Arnaldo"/>
+    </owl:Thing>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#America_do_Sul -->
 
     <Continente rdf:about="#America_do_Sul">
@@ -312,6 +376,7 @@
         <rdf:type rdf:resource="&owl;Thing"/>
         <morou_em rdf:resource="#Brasil"/>
         <afiliado_a rdf:resource="#DCC"/>
+        <publicou rdf:resource="#Secondary_stress_in_two_varieties_of_Portuguese_and_the_Sotaq_optimality_based_computer_program"/>
     </Professor>
     
 
@@ -332,6 +397,14 @@
         <morou_em rdf:resource="#Brasil"/>
         <afiliado_a rdf:resource="#DCC"/>
     </Professor>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Communications_in_Algebra -->
+
+    <Revista rdf:about="#Communications_in_Algebra">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </Revista>
     
 
 
@@ -359,6 +432,50 @@
         <morou_em rdf:resource="#Brasil"/>
         <afiliado_a rdf:resource="#DCC"/>
     </Professor>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Free_Subgroups_in_the_Group_of_Units_of_a_Twisted_Group_Algebra -->
+
+    <owl:Thing rdf:about="#Free_Subgroups_in_the_Group_of_Units_of_a_Twisted_Group_Algebra">
+        <rdf:type rdf:resource="#Artigo_em_Revista"/>
+        <publicou_em rdf:resource="#2001"/>
+        <publicado_por rdf:resource="#Arnaldo"/>
+        <publicado_na rdf:resource="#Communications_in_Algebra"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Free_products_of_units_in_algebras_II:_crossed_products -->
+
+    <Artigo_em_Revista rdf:about="#Free_products_of_units_in_algebras_II:_crossed_products">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <publicou_em rdf:resource="#2000"/>
+        <publicado_por rdf:resource="#Arnaldo"/>
+        <publicado_na rdf:resource="#Journal_of_Algebra"/>
+    </Artigo_em_Revista>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Free_symmetric_and_unitary_pairs_in_division_rings_with_involution -->
+
+    <Artigo_em_Revista rdf:about="#Free_symmetric_and_unitary_pairs_in_division_rings_with_involution">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <publicou_em rdf:resource="#2005"/>
+        <publicado_por rdf:resource="#Arnaldo"/>
+        <publicado_na rdf:resource="#International_Journal_of_Algebra_and_Computation"/>
+    </Artigo_em_Revista>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#From_Monomials_to_Words_to_Graphs -->
+
+    <Artigo_em_Revista rdf:about="#From_Monomials_to_Words_to_Graphs">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <publicou_em rdf:resource="#2004"/>
+        <publicado_por rdf:resource="#Arnaldo"/>
+        <publicado_na rdf:resource="#Journal_of_Combinatorial_Theory"/>
+    </Artigo_em_Revista>
     
 
 
@@ -400,6 +517,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Information_Processing_Letters -->
+
+    <owl:Thing rdf:about="#Information_Processing_Letters"/>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Informa&#231;&#227;o:_computa&#231;&#227;o_e_comunica&#231;&#227;o -->
 
     <Artigo_em_Revista rdf:about="#Informa&#231;&#227;o:_computa&#231;&#227;o_e_comunica&#231;&#227;o">
@@ -408,6 +531,30 @@
         <publicado_por rdf:resource="#Imre"/>
         <publicado_na rdf:resource="#Revista_USP"/>
     </Artigo_em_Revista>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#International_Journal_of_Algebra_and_Computation -->
+
+    <Revista rdf:about="#International_Journal_of_Algebra_and_Computation">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </Revista>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Journal_of_Algebra -->
+
+    <owl:Thing rdf:about="#Journal_of_Algebra">
+        <rdf:type rdf:resource="#Revista"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Journal_of_Combinatorial_Theory -->
+
+    <Revista rdf:about="#Journal_of_Combinatorial_Theory">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </Revista>
     
 
 
@@ -441,6 +588,24 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Primal-dual_approximation_algorithms_for_the_Prize-Collecting_Steiner_Tree_Problem -->
+
+    <owl:Thing rdf:about="#Primal-dual_approximation_algorithms_for_the_Prize-Collecting_Steiner_Tree_Problem">
+        <rdf:type rdf:resource="#Artigo_em_Revista"/>
+        <publicou_em rdf:resource="#2007"/>
+        <publicado_na rdf:resource="#Information_Processing_Letters"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Probus_(Dordrecht) -->
+
+    <Revista rdf:about="#Probus_(Dordrecht)">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </Revista>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Renata -->
 
     <Professor rdf:about="#Renata">
@@ -465,6 +630,27 @@
         <rdf:type rdf:resource="#Professor"/>
         <morou_em rdf:resource="#Brasil"/>
         <afiliado_a rdf:resource="#DCC"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Secondary_stress_in_two_varieties_of_Portuguese_and_the_Sotaq_optimality_based_computer_program -->
+
+    <Artigo_em_Revista rdf:about="#Secondary_stress_in_two_varieties_of_Portuguese_and_the_Sotaq_optimality_based_computer_program">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <publicou_em rdf:resource="#2006"/>
+        <publicado_na rdf:resource="#Probus_(Dordrecht)"/>
+    </Artigo_em_Revista>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Soda:_A_Lease-Based_Consistent_Distributed_File_System -->
+
+    <owl:Thing rdf:about="#Soda:_A_Lease-Based_Consistent_Distributed_File_System">
+        <rdf:type rdf:resource="#Artigo_em_Confer&#234;ncia"/>
+        <publicou_em rdf:resource="#1995"/>
+        <publicado_por rdf:resource="#Arnaldo"/>
+        <publicado_por rdf:resource="#F&#225;bio"/>
     </owl:Thing>
     
 
