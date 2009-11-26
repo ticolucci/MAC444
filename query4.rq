@@ -1,0 +1,12 @@
+PREFIX projeto:<http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#>
+
+SELECT ?Professor
+{
+  ?Professor a projeto:Professor .
+  ?Prof_do_IME a projeto:Professor .
+  ?departamento a projeto:Departamento .
+  
+  ?Professor projeto:orientado_por ?Prof_do_IME .
+  ?Prof_do_IME projeto:afiliado_a ?departamento .
+  ?departamento projeto:pertence projeto:IME.
+}

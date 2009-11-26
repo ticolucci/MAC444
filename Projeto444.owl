@@ -9,8 +9,8 @@
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
     <!ENTITY Ontology1258388399307 "http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#" >
     <!ENTITY Soda "http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Soda:" >
-    <!ENTITY Informação "http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Informa&#231;&#227;o:" >
-    <!ENTITY O_Oráculo_Bibliográfico "http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#O_Or&#225;culo_Bibliogr&#225;fico:" >
+    <!ENTITY Informacao "http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Informacao:" >
+    <!ENTITY O_Oraculo_Bibliografico "http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#O_Oraculo_Bibliografico:" >
     <!ENTITY Free_products_of_units_in_algebras_II "http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Free_products_of_units_in_algebras_II:" >
 ]>
 
@@ -20,12 +20,12 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
      xmlns:Free_products_of_units_in_algebras_II="&Ontology1258388399307;Free_products_of_units_in_algebras_II:"
+     xmlns:Informacao="&Ontology1258388399307;Informacao:"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:Ontology1258388399307="http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#"
-     xmlns:O_Oráculo_Bibliográfico="&Ontology1258388399307;O_Or&#225;culo_Bibliogr&#225;fico:"
-     xmlns:Informação="&Ontology1258388399307;Informa&#231;&#227;o:"
+     xmlns:O_Oraculo_Bibliografico="&Ontology1258388399307;O_Oraculo_Bibliografico:"
      xmlns:Soda="&Ontology1258388399307;Soda:">
     <owl:Ontology rdf:about=""/>
     
@@ -63,6 +63,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#contem_o -->
 
     <owl:ObjectProperty rdf:about="#contem_o">
+        <rdfs:domain rdf:resource="#Continente"/>
+        <rdfs:range rdf:resource="#Pa&#237;s"/>
         <owl:inverseOf rdf:resource="#faz_parte_de"/>
     </owl:ObjectProperty>
     
@@ -88,7 +90,10 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#orientado_por -->
 
-    <owl:ObjectProperty rdf:about="#orientado_por"/>
+    <owl:ObjectProperty rdf:about="#orientado_por">
+        <rdfs:domain rdf:resource="#Pessoa"/>
+        <rdfs:range rdf:resource="#Professor"/>
+    </owl:ObjectProperty>
     
 
 
@@ -123,7 +128,10 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#publicado_por -->
 
-    <owl:ObjectProperty rdf:about="#publicado_por"/>
+    <owl:ObjectProperty rdf:about="#publicado_por">
+        <rdfs:range rdf:resource="#Pessoa"/>
+        <rdfs:domain rdf:resource="#Trabalho"/>
+    </owl:ObjectProperty>
     
 
 
@@ -148,7 +156,10 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#tem -->
 
-    <owl:ObjectProperty rdf:about="#tem"/>
+    <owl:ObjectProperty rdf:about="#tem">
+        <rdfs:range rdf:resource="#Departamento"/>
+        <rdfs:domain rdf:resource="#Instituto"/>
+    </owl:ObjectProperty>
     
 
 
@@ -425,9 +436,19 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Fl&#225;vio -->
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Fabio -->
 
-    <Professor rdf:about="#Fl&#225;vio">
+    <owl:Thing rdf:about="#Fabio">
+        <rdf:type rdf:resource="#Professor"/>
+        <morou_em rdf:resource="#Brasil"/>
+        <afiliado_a rdf:resource="#DCC"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Flavio -->
+
+    <Professor rdf:about="#Flavio">
         <rdf:type rdf:resource="&owl;Thing"/>
         <morou_em rdf:resource="#Brasil"/>
         <afiliado_a rdf:resource="#DCC"/>
@@ -479,16 +500,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#F&#225;bio -->
-
-    <owl:Thing rdf:about="#F&#225;bio">
-        <rdf:type rdf:resource="#Professor"/>
-        <morou_em rdf:resource="#Brasil"/>
-        <afiliado_a rdf:resource="#DCC"/>
-    </owl:Thing>
-    
-
-
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Hungria -->
 
     <País rdf:about="#Hungria">
@@ -517,20 +528,20 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Information_Processing_Letters -->
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Informacao:_computacao_e_comunicacao -->
 
-    <owl:Thing rdf:about="#Information_Processing_Letters"/>
-    
-
-
-    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Informa&#231;&#227;o:_computa&#231;&#227;o_e_comunica&#231;&#227;o -->
-
-    <Artigo_em_Revista rdf:about="#Informa&#231;&#227;o:_computa&#231;&#227;o_e_comunica&#231;&#227;o">
-        <rdf:type rdf:resource="&owl;Thing"/>
+    <owl:Thing rdf:about="#Informacao:_computacao_e_comunicacao">
+        <rdf:type rdf:resource="#Artigo_em_Revista"/>
         <publicado_por rdf:resource="#Arnaldo"/>
         <publicado_por rdf:resource="#Imre"/>
         <publicado_na rdf:resource="#Revista_USP"/>
-    </Artigo_em_Revista>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Information_Processing_Letters -->
+
+    <owl:Thing rdf:about="#Information_Processing_Letters"/>
     
 
 
@@ -568,13 +579,13 @@
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#O_Or&#225;culo_Bibliogr&#225;fico:_Sonhos_de_um_Pesquisador -->
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#O_Oraculo_Bibliografico:_Sonhos_de_um_Pesquisador -->
 
-    <Artigo_em_Revista rdf:about="#O_Or&#225;culo_Bibliogr&#225;fico:_Sonhos_de_um_Pesquisador">
-        <rdf:type rdf:resource="&owl;Thing"/>
+    <owl:Thing rdf:about="#O_Oraculo_Bibliografico:_Sonhos_de_um_Pesquisador">
+        <rdf:type rdf:resource="#Artigo_em_Revista"/>
         <publicado_por rdf:resource="#Imre"/>
         <publicado_na rdf:resource="#Revista_USP"/>
-    </Artigo_em_Revista>
+    </owl:Thing>
     
 
 
@@ -650,7 +661,7 @@
         <rdf:type rdf:resource="#Artigo_em_Confer&#234;ncia"/>
         <publicou_em rdf:resource="#1995"/>
         <publicado_por rdf:resource="#Arnaldo"/>
-        <publicado_por rdf:resource="#F&#225;bio"/>
+        <publicado_por rdf:resource="#Fabio"/>
     </owl:Thing>
     
 

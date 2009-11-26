@@ -1,0 +1,10 @@
+PREFIX projeto:<http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#>
+
+SELECT ?Professor
+{
+  ?Professor a projeto:Professor .
+  ?pais a projeto:Pais .
+  
+  ?Professor projeto:morou_em ?pais .
+  projeto:Europa projeto:contem_o ?pais .
+}

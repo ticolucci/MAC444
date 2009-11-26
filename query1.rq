@@ -1,0 +1,14 @@
+PREFIX projeto:<http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#>
+
+SELECT ?Aluno
+{
+  ?Aluno a projeto:Aluno .
+  ?trabalho a project:Trabalho .
+  ?Professor a project:Professor .
+  
+  ?Aluno projeto:publicou ?trabalho .
+  ?Professsor projeto:publicou ?trabalho .
+  ?Professor projeto:orientador_de ?Aluno .
+  ?trabalho projeto:publicado_na projeto:Revista_USP .
+}
+

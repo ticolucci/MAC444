@@ -1,0 +1,10 @@
+PREFIX projeto:<http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#>
+
+SELECT ?professor
+{
+  ?professor a projeto:Professor .
+  ?artigo a projeto:Artigo .
+  
+  ?professor projeto:publicou ?artigo .
+  ?artigo projeto:publicou_em projeto:2008
+}
