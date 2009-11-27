@@ -394,10 +394,10 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Brasil -->
 
-    <País rdf:about="#Brasil">
+    <Pais rdf:about="#Brasil">
         <rdf:type rdf:resource="&owl;Thing"/>
         <faz_parte_de rdf:resource="#America_do_Sul"/>
-    </País>
+    </Pais>
     
 
 
@@ -502,9 +502,9 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Hungria -->
 
-    <País rdf:about="#Hungria">
+    <Pais rdf:about="#Hungria">
         <rdf:type rdf:resource="&owl;Thing"/>
-    </País>
+    </Pais>
     
 
 

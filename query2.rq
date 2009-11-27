@@ -1,8 +1,8 @@
-PREFIX projeto:<http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#>
+PREFIX :<http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#>
 
 SELECT *
 {
-  ?Professor a projeto:Professor .
+  ?Professor a :Professor .
   
-  ?Professor projeto:publicou projeto:Secondary_stress_in_two_varieties_of_Portuguese_and_the_Sotaq_optimality_based_computer_program .
+  ?Professor :publicou :Secondary_stress_in_two_varieties_of_Portuguese_and_the_Sotaq_optimality_based_computer_program
 }
