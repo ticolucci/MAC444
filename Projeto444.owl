@@ -14,9 +14,11 @@
     <!ENTITY _Even "http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Lempel,_Even," >
     <!ENTITY _an_open "http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#AcMus:_an_open," >
     <!ENTITY O_Oraculo_Bibliografico "http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#O_Oraculo_Bibliografico:" >
+    <!ENTITY Aggregation_of_Binary_Relations "http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Aggregation_of_Binary_Relations:" >
     <!ENTITY Experiences_Tracking_Agile_Projects "http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Experiences_Tracking_Agile_Projects:" >
     <!ENTITY Free_products_of_units_in_algebras_II "http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Free_products_of_units_in_algebras_II:" >
     <!ENTITY Concurrency_and_Computation "http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Concurrency_and_Computation._Practice_&amp;" >
+    <!ENTITY _Proof_Theory "http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Approximate_and_Limited_Reasoning:_Semantics,_Proof_Theory," >
 ]>
 
 
@@ -26,6 +28,7 @@
      xmlns:Free_products_of_units_in_algebras_II="&Ontology1258388399307;Free_products_of_units_in_algebras_II:"
      xmlns:_an_open="&Ontology1258388399307;AcMus:_an_open,"
      xmlns:Concurrency_and_Computation="&Ontology1258388399307;Concurrency_and_Computation._Practice_&amp;"
+     xmlns:Aggregation_of_Binary_Relations="&Ontology1258388399307;Aggregation_of_Binary_Relations:"
      xmlns:Experiences_Tracking_Agile_Projects="&Ontology1258388399307;Experiences_Tracking_Agile_Projects:"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
@@ -34,6 +37,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:_Even="&Ontology1258388399307;Lempel,_Even,"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:_Proof_Theory="&Ontology1258388399307;Approximate_and_Limited_Reasoning:_Semantics,_Proof_Theory,"
      xmlns:Ontology1258388399307="http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#"
      xmlns:O_Oraculo_Bibliografico="&Ontology1258388399307;O_Oraculo_Bibliografico:"
      xmlns:Soda="&Ontology1258388399307;Soda:">
@@ -329,6 +333,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#1986 -->
+
+    <owl:Thing rdf:about="#1986"/>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#1990 -->
 
     <owl:Thing rdf:about="#1990"/>
@@ -346,6 +356,12 @@
     <owl:Thing rdf:about="#1995">
         <rdf:type rdf:resource="#Ano"/>
     </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#1997 -->
+
+    <owl:Thing rdf:about="#1997"/>
     
 
 
@@ -409,6 +425,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#A_Logica_das_Estruturas_de_Features_e_suas_Aplicacoes -->
+
+    <owl:Thing rdf:about="#A_Logica_das_Estruturas_de_Features_e_suas_Aplicacoes">
+        <rdf:type rdf:resource="#Tese_de_Mestrado"/>
+        <publicou_em rdf:resource="#1995"/>
+        <publicado_por rdf:resource="#Renata_Wasserman"/>
+    </owl:Thing>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#AcMus:_an_open,_integrated_platform_for_room_acoustics_research -->
 
     <owl:Thing rdf:about="#AcMus:_an_open,_integrated_platform_for_room_acoustics_research">
@@ -417,6 +443,16 @@
         <publicado_por rdf:resource="#Fabio_Kon"/>
         <publicado_na rdf:resource="#Journal_of_the_Brazilian_Computer_Society"/>
     </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Aggregation_of_Binary_Relations:_algorithmic_and_polyhedral_investigations -->
+
+    <Tese_de_Doutorado rdf:about="#Aggregation_of_Binary_Relations:_algorithmic_and_polyhedral_investigations">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <publicou_em rdf:resource="#1986"/>
+        <publicado_por rdf:resource="#Yoshiko_Wakabayashi"/>
+    </Tese_de_Doutorado>
     
 
 
@@ -463,6 +499,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#An_Information_Retrieval_Application_using_Ontologies -->
+
+    <owl:Thing rdf:about="#An_Information_Retrieval_Application_using_Ontologies">
+        <rdf:type rdf:resource="#Artigo_em_Revista"/>
+        <publicou_em rdf:resource="#2005"/>
+        <publicado_na rdf:resource="#Journal_of_the_Brazilian_Computer_Society"/>
+        <publicado_por rdf:resource="#Renata_Wasserman"/>
+    </owl:Thing>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Applications_of_Shortest_Path_Methods -->
 
     <Tese_de_Doutorado rdf:about="#Applications_of_Shortest_Path_Methods">
@@ -484,6 +531,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Approximate_and_Limited_Reasoning:_Semantics,_Proof_Theory,_Expressivity_and_Control -->
+
+    <Artigo_em_Revista rdf:about="#Approximate_and_Limited_Reasoning:_Semantics,_Proof_Theory,_Expressivity_and_Control">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <publicou_em rdf:resource="#2004"/>
+        <publicado_na rdf:resource="#Journal_of_Logic_and_Computation"/>
+        <publicado_por rdf:resource="#Renata_Wasserman"/>
+    </Artigo_em_Revista>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Arnaldo_Mandel -->
 
     <owl:Thing rdf:about="#Arnaldo_Mandel">
@@ -495,12 +553,32 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Australia -->
+
+    <owl:Thing rdf:about="#Australia">
+        <rdf:type rdf:resource="#Pais"/>
+        <faz_parte_de rdf:resource="#Oceania"/>
+    </owl:Thing>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Automatic_Configuration_of_Component-Based_Distributed_Systems -->
 
     <Tese_de_Doutorado rdf:about="#Automatic_Configuration_of_Component-Based_Distributed_Systems">
         <rdf:type rdf:resource="&owl;Thing"/>
         <publicou rdf:resource="#2000"/>
     </Tese_de_Doutorado>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Base_Revision_for_Ontology_Debugging -->
+
+    <Artigo_em_Revista rdf:about="#Base_Revision_for_Ontology_Debugging">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <publicou_em rdf:resource="#2008"/>
+        <publicado_na rdf:resource="#Journal_Logic_and_Computation"/>
+        <publicado_por rdf:resource="#Renata_Wasserman"/>
+    </Artigo_em_Revista>
     
 
 
@@ -546,9 +624,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Degrees_of_Recovery_and_Inclusion_in_Belief_Base_Dynamics -->
+
+    <owl:Thing rdf:about="#Degrees_of_Recovery_and_Inclusion_in_Belief_Base_Dynamics">
+        <rdf:type rdf:resource="#Artigo_em_Confer&#234;ncia"/>
+        <publicou_em rdf:resource="#2008"/>
+        <apresentado_em rdf:resource="#Australia"/>
+        <publicado_por rdf:resource="#Renata_Wasserman"/>
+    </owl:Thing>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Discrete_Applied_Mathematics -->
 
     <owl:Thing rdf:about="#Discrete_Applied_Mathematics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Discrete_Mathematics -->
+
+    <owl:Thing rdf:about="#Discrete_Mathematics"/>
     
 
 
@@ -599,6 +694,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Expressivity_and_Control_in_Limited_Reasoning -->
+
+    <Artigo_em_Conferência rdf:about="#Expressivity_and_Control_in_Limited_Reasoning">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <publicou_em rdf:resource="#2002"/>
+        <apresentado_em rdf:resource="#Franca"/>
+        <publicado_por rdf:resource="#Renata_Wasserman"/>
+    </Artigo_em_Conferência>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Fabio_Kon -->
 
     <Professor rdf:about="#Fabio_Kon">
@@ -618,6 +724,12 @@
         <morou_em rdf:resource="#Brasil"/>
         <afiliado_a rdf:resource="#DCC"/>
     </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Franca -->
+
+    <owl:Thing rdf:about="#Franca"/>
     
 
 
@@ -671,6 +783,14 @@
         <rdf:type rdf:resource="#Artigo_em_Confer&#234;ncia"/>
         <publicou_em rdf:resource="#2009"/>
         <publicado_por rdf:resource="#Fabio_Kon"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Holanda -->
+
+    <owl:Thing rdf:about="#Holanda">
+        <rdf:type rdf:resource="#Pais"/>
     </owl:Thing>
     
 
@@ -749,10 +869,16 @@
 
     <Professor rdf:about="#Jose_Coelho">
         <rdf:type rdf:resource="&owl;Thing"/>
-        <morou_em rdf:resource="#Alemanha"/>
         <morou_em rdf:resource="#Brasil"/>
         <afiliado_a rdf:resource="#DCC"/>
+        <morou_em rdf:resource="#Holanda"/>
     </Professor>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Journal_Logic_and_Computation -->
+
+    <owl:Thing rdf:about="#Journal_Logic_and_Computation"/>
     
 
 
@@ -764,11 +890,23 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Journal_of_Applied_Non-Classical_Logics -->
+
+    <owl:Thing rdf:about="#Journal_of_Applied_Non-Classical_Logics"/>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Journal_of_Combinatorial_Theory -->
 
     <Revista rdf:about="#Journal_of_Combinatorial_Theory">
         <rdf:type rdf:resource="&owl;Thing"/>
     </Revista>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Journal_of_Logic_and_Computation -->
+
+    <owl:Thing rdf:about="#Journal_of_Logic_and_Computation"/>
     
 
 
@@ -809,6 +947,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Local_Diagnosis -->
+
+    <Artigo_em_Revista rdf:about="#Local_Diagnosis">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <publicou_em rdf:resource="#2001"/>
+        <publicado_na rdf:resource="#Journal_of_Applied_Non-Classical_Logics"/>
+        <publicado_por rdf:resource="#Renata_Wasserman"/>
+    </Artigo_em_Revista>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#MANGUE:_Metrics_and_Tool_for_Automatic_Quality_Evaluation_of_Free_and_Open_Software_Projects -->
 
     <owl:Thing rdf:about="#MANGUE:_Metrics_and_Tool_for_Automatic_Quality_Evaluation_of_Free_and_Open_Software_Projects">
@@ -816,6 +965,17 @@
         <publicou_em rdf:resource="#2009"/>
         <publicado_por rdf:resource="#Fabio_Kon"/>
     </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Minimum_cycle_cover_and_Chinese_postman_problems_on_mixed_graphs_with_bounded_tree-width -->
+
+    <Artigo_em_Revista rdf:about="#Minimum_cycle_cover_and_Chinese_postman_problems_on_mixed_graphs_with_bounded_tree-width">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <publicou_em rdf:resource="#2009"/>
+        <publicado_na rdf:resource="#Discrete_Applied_Mathematics"/>
+        <publicado_por rdf:resource="#Yoshiko_Wakabayashi"/>
+    </Artigo_em_Revista>
     
 
 
@@ -829,6 +989,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Oceania -->
+
+    <owl:Thing rdf:about="#Oceania"/>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#On_semigroups_of_matrices_over_the_tropical_semiring -->
 
     <owl:Thing rdf:about="#On_semigroups_of_matrices_over_the_tropical_semiring">
@@ -836,6 +1002,17 @@
         <publicado_por rdf:resource="#Imre_Simon"/>
         <publicado_na rdf:resource="#Technique_et_Science_Informatiques"/>
     </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Packing_Triangles_in_Low_Degree_Graphs_and_Indifference_Graphs -->
+
+    <Artigo_em_Revista rdf:about="#Packing_Triangles_in_Low_Degree_Graphs_and_Indifference_Graphs">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <publicou_em rdf:resource="#2008"/>
+        <publicado_na rdf:resource="#Discrete_Mathematics"/>
+        <publicado_por rdf:resource="#Yoshiko_Wakabayashi"/>
+    </Artigo_em_Revista>
     
 
 
@@ -864,6 +1041,8 @@
         <rdf:type rdf:resource="#Professor"/>
         <morou_em rdf:resource="#Brasil"/>
         <afiliado_a rdf:resource="#DCC"/>
+        <orientado_por rdf:resource="#Flavio_Soares"/>
+        <morou_em rdf:resource="#Holanda"/>
     </owl:Thing>
     
 
@@ -874,6 +1053,28 @@
         <rdf:type rdf:resource="&owl;Thing"/>
         <publicou_em rdf:resource="#2009"/>
         <publicado_por rdf:resource="#Fabio_Kon"/>
+    </Artigo_em_Conferência>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Resource_Bounded_Belief_Revision -->
+
+    <owl:Thing rdf:about="#Resource_Bounded_Belief_Revision">
+        <rdf:type rdf:resource="#Tese_de_Doutorado"/>
+        <publicou_em rdf:resource="#2000"/>
+        <publicado_por rdf:resource="#Renata_Wasserman"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Revising_Specifications_with_CTL_Properties_Using_Bounded_Model_Checking -->
+
+    <Artigo_em_Conferência rdf:about="#Revising_Specifications_with_CTL_Properties_Using_Bounded_Model_Checking">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <publicou_em rdf:resource="#2008"/>
+        <apresentado_em rdf:resource="#Alemanha"/>
+        <apresentado_em rdf:resource="#Brasil"/>
+        <publicado_por rdf:resource="#Renata_Wasserman"/>
     </Artigo_em_Conferência>
     
 
@@ -926,6 +1127,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Sobre_Grafos_Hamiltonianos -->
+
+    <owl:Thing rdf:about="#Sobre_Grafos_Hamiltonianos">
+        <rdf:type rdf:resource="#Tese_de_Mestrado"/>
+        <publicou_em rdf:resource="#1997"/>
+        <publicado_por rdf:resource="#Yoshiko_Wakabayashi"/>
+    </owl:Thing>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Soda:_A_Lease-Based_Consistent_Distributed_File_System -->
 
     <owl:Thing rdf:about="#Soda:_A_Lease-Based_Consistent_Distributed_File_System">
@@ -962,12 +1173,25 @@
     
 
 
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Using_Relevance_to_Speed_up_Inference -->
+
+    <owl:Thing rdf:about="#Using_Relevance_to_Speed_up_Inference">
+        <rdf:type rdf:resource="#Artigo_em_Confer&#234;ncia"/>
+        <publicou_em rdf:resource="#2004"/>
+        <apresentado_em rdf:resource="#Brasil"/>
+        <publicado_por rdf:resource="#Renata_Wasserman"/>
+    </owl:Thing>
+    
+
+
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Yoshiko_Wakabayashi -->
 
     <Professor rdf:about="#Yoshiko_Wakabayashi">
         <rdf:type rdf:resource="&owl;Thing"/>
+        <morou_em rdf:resource="#Alemanha"/>
         <morou_em rdf:resource="#Brasil"/>
         <afiliado_a rdf:resource="#DCC"/>
+        <orientado_por rdf:resource="#Imre_Simon"/>
     </Professor>
 </rdf:RDF>
 
