@@ -6,6 +6,6 @@ OK 3. Quais professores moraram na Europa?
 OK 4. Quais professores foram orientados por professores do IME?
 OK 5. Quais professores são co-autores de outros professores do mesmo departamento?
 FALTA_TESTE 6. Quais professores publicaram com um não-professor que publicou com outro professor?
-FALTA_TESTE 7. Quais professores publicaram artigos no ano XX?
+OK 7. Quais professores publicaram artigos no ano XX?
 FALTA_TESTE 8. Quais professores publicaram artigos em conferências no ano XX?
 FALTA_TESTE 9. Quais professores publicaram artigos em conferências nacionais no ano XX?

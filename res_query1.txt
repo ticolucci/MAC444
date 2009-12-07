@@ -1,12 +1,7 @@
---------------------------
-| Aluno                  |
-==========================
-| :Yoshiko               |
-| :Yoshiharu_Kohayakawa  |
-| :Fabio                 |
-| :Danilo_Sato           |
-| :Ronaldo               |
-| :Nestor_Walter_Trepode |
-| :Arnaldo               |
-| :Alair_Pereira_do_Lago |
---------------------------
+--------------------------------------
+| Aluno                  | Professor |
+======================================
+| :Ronaldo               | :Yoshiko  |
+| :Ronaldo               | :Junior   |
+| :Nestor_Walter_Trepode | :Junior   |
+--------------------------------------
