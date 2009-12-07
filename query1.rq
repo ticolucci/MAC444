@@ -1,14 +1,15 @@
 PREFIX :<http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#>
 
-SELECT ?Aluno
+SELECT DISTINCT ?Aluno
 {
   ?Aluno a :Aluno .
-  ?trabalho a :Trabalho .
+  ?artigo a :Artigo_em_Revista .
   ?Professor a :Professor .
+	?revista a :Revista .
   
-  ?Aluno :publicou ?trabalho .
-  ?Professsor :publicou ?trabalho .
+  ?Aluno :publicou ?artigo .
+  ?Professsor :publicou ?artigo .
   ?Professor :orientador_de ?Aluno .
-  ?trabalho :publicado_na :Revista_USP
+  ?artigo :publicado_na ?revista
 }
 

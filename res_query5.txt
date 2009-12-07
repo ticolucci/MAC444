@@ -1,0 +1,14 @@
+---------------------------
+| um_professor | co_autor |
+===========================
+| :Ronaldo     | :Junior  |
+| :Junior      | :Ronaldo |
+| :Flavio      | :Fabio   |
+| :Fabio       | :Flavio  |
+| :Flavio      | :Renata  |
+| :Renata      | :Flavio  |
+| :Flavio      | :Junior  |
+| :Junior      | :Flavio  |
+| :Arnaldo     | :Imre    |
+| :Imre        | :Arnaldo |
+---------------------------

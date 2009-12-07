@@ -1,10 +1,10 @@
 PREFIX :<http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#>
 
-SELECT ?um_professor
+SELECT DISTINCT ?um_professor ?co_autor
 {
   ?Aluno a :Aluno .
-  ?memso_trabalho a :Trabalho .
-  ?memso_departamento a :Departamento .
+  ?mesmo_trabalho a :Trabalho .
+  ?mesmo_departamento a :Departamento .
   ?um_professor a :Professor .
   ?co_autor a :Professor .
   
