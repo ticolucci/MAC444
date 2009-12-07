@@ -274,15 +274,14 @@
 
     <owl:Class rdf:about="&j.0;Artigo_em_Conferencia">
         <rdfs:subClassOf rdf:resource="&j.0;Artigo"/>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Artigo_em_Conferencia -->
+    <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Artigo_em_Confer&#234;ncia -->
 
-    <owl:Class rdf:about="&j.0;Artigo_em_Conferencia">
-        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
-    </owl:Class>
+    <owl:Class rdf:about="&j.0;Artigo_em_Confer&#234;ncia"/>
     
 
 
@@ -387,7 +386,6 @@
     <owl:Class rdf:about="&owl;Nothing">
         <rdfs:subClassOf rdf:resource="&j.0;Aluno"/>
         <rdfs:subClassOf rdf:resource="&j.0;Ano"/>
-        <rdfs:subClassOf rdf:resource="&j.0;Artigo_em_Conferencia"/>
         <rdfs:subClassOf rdf:resource="&j.0;Artigo_em_Conferencia"/>
         <rdfs:subClassOf rdf:resource="&j.0;Artigo_em_Revista"/>
         <rdfs:subClassOf rdf:resource="&j.0;Continente"/>
@@ -685,36 +683,36 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#A_5/3-approximation_for_Finding_SpanningTrees_with_Many_Leaves_in_Cubic_Graphs. -->
 
-    <j.0:Artigo_em_Conferência rdf:about="&j.0;A_5/3-approximation_for_Finding_SpanningTrees_with_Many_Leaves_in_Cubic_Graphs.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
+    <j.0:Trabalho rdf:about="&j.0;A_5/3-approximation_for_Finding_SpanningTrees_with_Many_Leaves_in_Cubic_Graphs.">
         <rdf:type rdf:resource="&j.0;Artigo"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Confer&#234;ncia"/>
         <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2008"/>
         <j.0:apresentado_em rdf:resource="&j.0;Israel"/>
         <j.0:publicado_por rdf:resource="&j.0;Yoshiko"/>
-    </j.0:Artigo_em_Conferência>
+    </j.0:Trabalho>
     
 
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#A_Formal_Model_for_the_Fifth_Discipline. -->
 
-    <owl:Thing rdf:about="&j.0;A_Formal_Model_for_the_Fifth_Discipline.">
+    <j.0:Artigo rdf:about="&j.0;A_Formal_Model_for_the_Fifth_Discipline.">
         <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
-        <rdf:type rdf:resource="&j.0;Artigo"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2005"/>
         <j.0:publicado_por rdf:resource="&j.0;Flavio"/>
         <j.0:publicado_na rdf:resource="&j.0;Journal_of_Artificial_Societies_and_Social_Simulation"/>
-    </owl:Thing>
+    </j.0:Artigo>
     
 
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#A_Logica_de_Estruturas_de_Features_e_Suas_Aplicacoes. -->
 
     <owl:Thing rdf:about="&j.0;A_Logica_de_Estruturas_de_Features_e_Suas_Aplicacoes.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Tese"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;1995"/>
         <j.0:publicado_por rdf:resource="&j.0;Renata"/>
@@ -725,8 +723,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#A_New_Machine_Learning_Technique_Based_on_Straight_Line_Segments. -->
 
     <j.0:Artigo_em_Conferência rdf:about="&j.0;A_New_Machine_Learning_Technique_Based_on_Straight_Line_Segments.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
         <rdf:type rdf:resource="&j.0;Artigo"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2006"/>
@@ -761,8 +759,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#A_Robust_Structural_PGN_Model_for_Control_of_Cell-Cycle_Progression_Stabilized_by_Negative_Feedbacks. -->
 
     <owl:Thing rdf:about="&j.0;A_Robust_Structural_PGN_Model_for_Control_of_Cell-Cycle_Progression_Stabilized_by_Negative_Feedbacks.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
         <rdf:type rdf:resource="&j.0;Artigo"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2007"/>
         <j.0:publicado_na rdf:resource="&j.0;EURASIP_Journal_on_Bioinformatics_and_Systems_Biology"/>
@@ -775,15 +773,15 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#A_greedy_algorithm_for_decomposing_convex_structuring_elements. -->
 
-    <owl:Thing rdf:about="&j.0;A_greedy_algorithm_for_decomposing_convex_structuring_elements.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
+    <j.0:Artigo_em_Revista rdf:about="&j.0;A_greedy_algorithm_for_decomposing_convex_structuring_elements.">
         <rdf:type rdf:resource="&j.0;Artigo"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2003"/>
         <j.0:publicado_na rdf:resource="&j.0;Journal_of_Mathematical_Imaging_and_Vision"/>
         <j.0:publicado_por rdf:resource="&j.0;Junior"/>
         <j.0:publicado_por rdf:resource="&j.0;Ronaldo"/>
-    </owl:Thing>
+    </j.0:Artigo_em_Revista>
     
 
 
@@ -798,8 +796,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#AcMus:_an_open,_integrated_platform_for_room_acoustics_research. -->
 
     <owl:Thing rdf:about="&j.0;AcMus:_an_open,_integrated_platform_for_room_acoustics_research.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
         <rdf:type rdf:resource="&j.0;Artigo"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2008"/>
         <j.0:publicado_por rdf:resource="&j.0;Fabio"/>
@@ -811,8 +809,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Adaptacao_Dinamica_Utilizando_Agentes_Moveis_em_Computacao_Ubiqua. -->
 
     <owl:Thing rdf:about="&j.0;Adaptacao_Dinamica_Utilizando_Agentes_Moveis_em_Computacao_Ubiqua.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Tese"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2005"/>
         <j.0:publicado_por rdf:resource="&j.0;Roberto_Speicys_Cardoso"/>
@@ -824,8 +822,6 @@
 
     <owl:Thing rdf:about="&j.0;Adaptacao_Dinamica_de_Sistemas_Distribuidos.">
         <rdf:type rdf:resource="&j.0;Tese_de_Doutorado"/>
-        <rdf:type rdf:resource="&j.0;Tese"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2003"/>
         <j.0:publicado_por rdf:resource="&j.0;Francisco_Jose_da_Silva_e_Silva"/>
     </owl:Thing>
@@ -856,10 +852,10 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Alemanha -->
 
-    <owl:Thing rdf:about="&j.0;Alemanha">
-        <rdf:type rdf:resource="&j.0;Pais"/>
+    <j.0:Pais rdf:about="&j.0;Alemanha">
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:faz_parte_de rdf:resource="&j.0;Europa"/>
-    </owl:Thing>
+    </j.0:Pais>
     
 
 
@@ -930,8 +926,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Algoritmos_Primal-duais. -->
 
     <owl:Thing rdf:about="&j.0;Algoritmos_Primal-duais.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Tese"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2003"/>
         <j.0:publicado_por rdf:resource="&j.0;Ana_Lucia_Lima_Marreiros"/>
@@ -953,8 +949,6 @@
 
     <owl:Thing rdf:about="&j.0;Algoritmos_de_Aproximacao_para_Problemas_de_Empacotamento.">
         <rdf:type rdf:resource="&j.0;Tese_de_Doutorado"/>
-        <rdf:type rdf:resource="&j.0;Tese"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;1997"/>
         <j.0:publicado_por rdf:resource="&j.0;Flavio_Keidi_Miyazawa"/>
     </owl:Thing>
@@ -974,8 +968,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Algoritmos_para_Caminhos_Minimos. -->
 
     <owl:Thing rdf:about="&j.0;Algoritmos_para_Caminhos_Minimos.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Tese"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2002"/>
         <j.0:publicado_por rdf:resource="&j.0;Shigueo_Isotani"/>
@@ -987,8 +981,6 @@
 
     <owl:Thing rdf:about="&j.0;Algoritmos_para_Comparacao_de_Arvores_Filogeneticas_e_o_Problema_dos_Pontos_de_Recombinacao.">
         <rdf:type rdf:resource="&j.0;Tese_de_Doutorado"/>
-        <rdf:type rdf:resource="&j.0;Tese"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2003"/>
         <j.0:publicado_por rdf:resource="&j.0;Estela_Maris_Rodrigues"/>
     </owl:Thing>
@@ -1008,11 +1000,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Alguns_Problemas_de_Enumeracao_Em_Geometria -->
 
     <owl:Thing rdf:about="&j.0;Alguns_Problemas_de_Enumeracao_Em_Geometria">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
         <rdf:type rdf:resource="&j.0;Artigo"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
         <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
-        <rdf:type rdf:resource="&j.0;Artigo"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;1983"/>
         <j.0:publicado_por rdf:resource="&j.0;Arnaldo"/>
@@ -1074,8 +1063,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Analise_Experimental_de_Algoritmos_de_Planaridade. -->
 
     <owl:Thing rdf:about="&j.0;Analise_Experimental_de_Algoritmos_de_Planaridade.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Tese"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2003"/>
         <j.0:publicado_por rdf:resource="&j.0;Alexandre_Noma"/>
@@ -1096,8 +1085,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Analise_de_Investimentos:_Uma_Abordagem_Sobre_a_Implantacao_de_Projetos_de_Sistemas_de_Gestao_Empresarial. -->
 
     <owl:Thing rdf:about="&j.0;Analise_de_Investimentos:_Uma_Abordagem_Sobre_a_Implantacao_de_Projetos_de_Sistemas_de_Gestao_Empresarial.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Tese"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2002"/>
         <j.0:publicado_por rdf:resource="&j.0;Cristiano_Garbelotto_Mikosewski"/>
@@ -1107,13 +1096,13 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Analise_de_classificadores_de_sequencias_projetados_por_aprendizado_computacional_supervisionado_e_nao_supervisionado. -->
 
-    <owl:Thing rdf:about="&j.0;Analise_de_classificadores_de_sequencias_projetados_por_aprendizado_computacional_supervisionado_e_nao_supervisionado.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
+    <j.0:Trabalho rdf:about="&j.0;Analise_de_classificadores_de_sequencias_projetados_por_aprendizado_computacional_supervisionado_e_nao_supervisionado.">
         <rdf:type rdf:resource="&j.0;Tese"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2004"/>
         <j.0:publicado_por rdf:resource="&j.0;Caetano_Giminez_Carezato"/>
-    </owl:Thing>
+    </j.0:Trabalho>
     
 
 
@@ -1159,11 +1148,11 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Andrea_Tieme_Nakasato -->
 
-    <owl:Thing rdf:about="&j.0;Andrea_Tieme_Nakasato">
-        <rdf:type rdf:resource="&j.0;Aluno"/>
+    <j.0:Aluno rdf:about="&j.0;Andrea_Tieme_Nakasato">
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou rdf:resource="&j.0;1984"/>
         <j.0:orientado_por rdf:resource="&j.0;Yoshiko"/>
-    </owl:Thing>
+    </j.0:Aluno>
     
 
 
@@ -1232,8 +1221,6 @@
 
     <owl:Thing rdf:about="&j.0;Aprendizado_Computacional_Baseado_em_Distancia_a_Segmentos_de_Reta.">
         <rdf:type rdf:resource="&j.0;Tese_de_Doutorado"/>
-        <rdf:type rdf:resource="&j.0;Tese"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2009"/>
         <j.0:publicado_por rdf:resource="&j.0;Joao_Henrique_Burckas_Ribeiro"/>
     </owl:Thing>
@@ -1302,11 +1289,11 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#As_novas_tecnologias_e_as_universidades_milenares. -->
 
-    <owl:Thing rdf:about="&j.0;As_novas_tecnologias_e_as_universidades_milenares.">
+    <j.0:Artigo rdf:about="&j.0;As_novas_tecnologias_e_as_universidades_milenares.">
         <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
-        <rdf:type rdf:resource="&j.0;Artigo"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
-    </owl:Thing>
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </j.0:Artigo>
     
 
 
@@ -1351,8 +1338,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Automatic_Programming_of_Binary_Morphological_Machines_By_Pac_Learning. -->
 
     <j.0:Artigo_em_Conferência rdf:about="&j.0;Automatic_Programming_of_Binary_Morphological_Machines_By_Pac_Learning.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
         <rdf:type rdf:resource="&j.0;Artigo"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;1994"/>
@@ -1365,17 +1352,14 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Automatic_window_design_for_gray-scale_image_processing_based_on_entropy_minimization. -->
 
-    <owl:Thing rdf:about="&j.0;Automatic_window_design_for_gray-scale_image_processing_based_on_entropy_minimization.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
+    <j.0:Trabalho rdf:about="&j.0;Automatic_window_design_for_gray-scale_image_processing_based_on_entropy_minimization.">
         <rdf:type rdf:resource="&j.0;Artigo"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
         <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
-        <rdf:type rdf:resource="&j.0;Artigo"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2005"/>
         <j.0:apresentado_em rdf:resource="&j.0;Cuba"/>
         <j.0:publicado_por rdf:resource="&j.0;Junior"/>
-    </owl:Thing>
+    </j.0:Trabalho>
     
 
 
@@ -1402,8 +1386,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Bases_de_Hilbert. -->
 
     <owl:Thing rdf:about="&j.0;Bases_de_Hilbert.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Tese"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2007"/>
         <j.0:publicado_por rdf:resource="&j.0;Marcelo_Hashimoto"/>
@@ -1413,25 +1397,22 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Basis_Computation_Algorithm. -->
 
-    <owl:Thing rdf:about="&j.0;Basis_Computation_Algorithm.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
+    <j.0:Trabalho rdf:about="&j.0;Basis_Computation_Algorithm.">
         <rdf:type rdf:resource="&j.0;Artigo"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
         <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
-        <rdf:type rdf:resource="&j.0;Artigo"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2007"/>
         <j.0:apresentado_em rdf:resource="&j.0;Brasil"/>
         <j.0:publicado_por rdf:resource="&j.0;Junior"/>
-    </owl:Thing>
+    </j.0:Trabalho>
     
 
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Being_Extreme_in_the_Classroom:_Experiences_Teaching_XP. -->
 
     <owl:Thing rdf:about="&j.0;Being_Extreme_in_the_Classroom:_Experiences_Teaching_XP.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
         <rdf:type rdf:resource="&j.0;Artigo"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2004"/>
         <j.0:publicado_por rdf:resource="&j.0;Fabio"/>
@@ -1443,11 +1424,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Binary_Decision_Diagrams_as_a_New_Paradigm_for_Morphological_Machines -->
 
     <owl:Thing rdf:about="&j.0;Binary_Decision_Diagrams_as_a_New_Paradigm_for_Morphological_Machines">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
         <rdf:type rdf:resource="&j.0;Artigo"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
         <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
-        <rdf:type rdf:resource="&j.0;Artigo"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2005"/>
         <j.0:apresentado_em rdf:resource="&j.0;Franca"/>
@@ -1490,8 +1468,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Caminhos_Minimos_em_Grafos_Mistos. -->
 
     <owl:Thing rdf:about="&j.0;Caminhos_Minimos_em_Grafos_Mistos.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
         <rdf:type rdf:resource="&j.0;Artigo"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;1995"/>
         <j.0:apresentado_em rdf:resource="&j.0;Brasil"/>
@@ -1551,14 +1529,14 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Checkpointing_BSP_parallel_applications_on_the_InteGrade_Grid_middleware. -->
 
-    <owl:Thing rdf:about="&j.0;Checkpointing_BSP_parallel_applications_on_the_InteGrade_Grid_middleware.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
+    <j.0:Trabalho rdf:about="&j.0;Checkpointing_BSP_parallel_applications_on_the_InteGrade_Grid_middleware.">
         <rdf:type rdf:resource="&j.0;Artigo"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2006"/>
         <j.0:publicado_na rdf:resource="&j.0;Concurrency_and_Computation._Practice_&amp;_Experience"/>
         <j.0:publicado_por rdf:resource="&j.0;Fabio"/>
-    </owl:Thing>
+    </j.0:Trabalho>
     
 
 
@@ -1596,8 +1574,6 @@
 
     <owl:Thing rdf:about="&j.0;Cobertura_por_Circuitos_em_Grafos_Mistos.">
         <rdf:type rdf:resource="&j.0;Tese_de_Doutorado"/>
-        <rdf:type rdf:resource="&j.0;Tese"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;1999"/>
         <j.0:publicou_em rdf:resource="&j.0;Orlando_Lee"/>
     </owl:Thing>
@@ -1652,8 +1628,6 @@
 
     <owl:Thing rdf:about="&j.0;Compartilhamento_de_Conhecimento_entre_Sistemas_Baseados_em_Conhecimento.">
         <rdf:type rdf:resource="&j.0;Tese_de_Doutorado"/>
-        <rdf:type rdf:resource="&j.0;Tese"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2000"/>
         <j.0:publicado_por rdf:resource="&j.0;Roberto_Cassio_de_Araujo"/>
     </owl:Thing>
@@ -1663,8 +1637,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Compatibilidade_de_Extensoes_de_Matroides. -->
 
     <owl:Thing rdf:about="&j.0;Compatibilidade_de_Extensoes_de_Matroides.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Tese"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;1987"/>
         <j.0:publicado_por rdf:resource="&j.0;Denise_Sakai"/>
@@ -1685,8 +1659,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Computers_and_Operations_Research -->
 
     <owl:Thing rdf:about="&j.0;Computers_and_Operations_Research">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
         <rdf:type rdf:resource="&j.0;Artigo"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2008"/>
         <j.0:publicado_na rdf:resource="&j.0;Discrete_Mathematics"/>
@@ -1716,8 +1690,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Construcao_e_estudos_sobre_ontologias_de_bioquimica. -->
 
     <owl:Thing rdf:about="&j.0;Construcao_e_estudos_sobre_ontologias_de_bioquimica.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Tese"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2005"/>
         <j.0:publicado_por rdf:resource="&j.0;Anderson_Sanches"/>
@@ -1727,17 +1701,14 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Constructions_of_Hypotraceable_Digraphs. -->
 
-    <owl:Thing rdf:about="&j.0;Constructions_of_Hypotraceable_Digraphs.">
+    <j.0:Artigo rdf:about="&j.0;Constructions_of_Hypotraceable_Digraphs.">
         <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
-        <rdf:type rdf:resource="&j.0;Artigo"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
-        <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
-        <rdf:type rdf:resource="&j.0;Artigo"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;1984"/>
         <j.0:apresentado_em rdf:resource="&j.0;Brasil"/>
         <j.0:publicado_por rdf:resource="&j.0;Yoshiko"/>
-    </owl:Thing>
+    </j.0:Artigo>
     
 
 
@@ -1773,11 +1744,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Cube_Packing. -->
 
     <owl:Thing rdf:about="&j.0;Cube_Packing.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
         <rdf:type rdf:resource="&j.0;Artigo"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
         <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
-        <rdf:type rdf:resource="&j.0;Artigo"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2000"/>
         <j.0:apresentado_em rdf:resource="&j.0;Alemanha"/>
@@ -1828,11 +1796,11 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Daniel_Panario_Rodriguez -->
 
-    <owl:Thing rdf:about="&j.0;Daniel_Panario_Rodriguez">
-        <rdf:type rdf:resource="&j.0;Aluno"/>
+    <j.0:Aluno rdf:about="&j.0;Daniel_Panario_Rodriguez">
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:orientado_por rdf:resource="&j.0;Arnaldo"/>
         <j.0:publicou rdf:resource="&j.0;Complexidade_de_Problemas_Multilineares."/>
-    </owl:Thing>
+    </j.0:Aluno>
     
 
 
@@ -1850,6 +1818,7 @@
 
     <owl:Thing rdf:about="&j.0;Danilo_Sato">
         <rdf:type rdf:resource="&j.0;Aluno"/>
+        <rdf:type rdf:resource="&j.0;Pessoa"/>
         <j.0:orientado_por rdf:resource="&j.0;Alfredo"/>
         <j.0:publicou rdf:resource="&j.0;Experiences_Tracking_Agile_Projects:_An_Empirical_Study."/>
         <j.0:publicou rdf:resource="&j.0;Extending_Extreme_Programming_with_Practices_from_Other_Methodologies."/>
@@ -1887,25 +1856,25 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Depuracao_simbolica_extensivel_para_sistemas_de_objetos_distribuidos. -->
 
-    <owl:Thing rdf:about="&j.0;Depuracao_simbolica_extensivel_para_sistemas_de_objetos_distribuidos.">
+    <j.0:Tese rdf:about="&j.0;Depuracao_simbolica_extensivel_para_sistemas_de_objetos_distribuidos.">
         <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
-        <rdf:type rdf:resource="&j.0;Tese"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2008"/>
         <j.0:publicado_por rdf:resource="&j.0;Giuliano_Mega"/>
-    </owl:Thing>
+    </j.0:Tese>
     
 
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Desenvolvimento_de_sistemas_baseados_em_artefatos_de_conhecimento. -->
 
-    <owl:Thing rdf:about="&j.0;Desenvolvimento_de_sistemas_baseados_em_artefatos_de_conhecimento.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
+    <j.0:Trabalho rdf:about="&j.0;Desenvolvimento_de_sistemas_baseados_em_artefatos_de_conhecimento.">
         <rdf:type rdf:resource="&j.0;Tese"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2008"/>
         <j.0:publicado_por rdf:resource="&j.0;Gustavo_Enrique_Salazar_Torres"/>
-    </owl:Thing>
+    </j.0:Trabalho>
     
 
 
@@ -1922,8 +1891,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Design,_implementation,_and_performance_of_an_automatic_configuration_service_for_distributed_component_systems. -->
 
     <owl:Thing rdf:about="&j.0;Design,_implementation,_and_performance_of_an_automatic_configuration_service_for_distributed_component_systems.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
         <rdf:type rdf:resource="&j.0;Artigo"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2005"/>
         <j.0:publicado_por rdf:resource="&j.0;Fabio"/>
@@ -1946,14 +1915,14 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Design_issues_for_knowledge_artifacts. -->
 
-    <owl:Thing rdf:about="&j.0;Design_issues_for_knowledge_artifacts.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
+    <j.0:Trabalho rdf:about="&j.0;Design_issues_for_knowledge_artifacts.">
         <rdf:type rdf:resource="&j.0;Artigo"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2008"/>
         <j.0:publicado_por rdf:resource="&j.0;Flavio"/>
         <j.0:publicado_na rdf:resource="&j.0;Knowledge-Based_Systems"/>
-    </owl:Thing>
+    </j.0:Trabalho>
     
 
 
@@ -1980,9 +1949,9 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Discrete_Applied_Mathematics -->
 
-    <owl:Thing rdf:about="&j.0;Discrete_Applied_Mathematics">
-        <rdf:type rdf:resource="&j.0;Revista"/>
-    </owl:Thing>
+    <j.0:Revista rdf:about="&j.0;Discrete_Applied_Mathematics">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </j.0:Revista>
     
 
 
@@ -2065,13 +2034,13 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Em_Busca_de_Procedimentos_de_Inferencia_Eficientes_via_Relevancia_por_Sintaxe. -->
 
-    <owl:Thing rdf:about="&j.0;Em_Busca_de_Procedimentos_de_Inferencia_Eficientes_via_Relevancia_por_Sintaxe.">
+    <j.0:Tese rdf:about="&j.0;Em_Busca_de_Procedimentos_de_Inferencia_Eficientes_via_Relevancia_por_Sintaxe.">
         <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
-        <rdf:type rdf:resource="&j.0;Tese"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2004"/>
         <j.0:publicado_por rdf:resource="&j.0;Joselyto_Riani"/>
-    </owl:Thing>
+    </j.0:Tese>
     
 
 
@@ -2079,8 +2048,6 @@
 
     <owl:Thing rdf:about="&j.0;Empacotamento_de_Subgrafos_em_Grafos.">
         <rdf:type rdf:resource="&j.0;Tese_de_Doutorado"/>
-        <rdf:type rdf:resource="&j.0;Tese"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2006"/>
         <j.0:publicado_por rdf:resource="&j.0;Gordana_Manic"/>
     </owl:Thing>
@@ -2090,8 +2057,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Equivalencia_Entre_A_Semantica_da_Logica_de_Transacoes_e_A_Semantica_de_Sua_Implementacao_Prolog. -->
 
     <owl:Thing rdf:about="&j.0;Equivalencia_Entre_A_Semantica_da_Logica_de_Transacoes_e_A_Semantica_de_Sua_Implementacao_Prolog.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Tese"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicado_por rdf:resource="&j.0;Paulo_Eduardo_Santos"/>
     </owl:Thing>
@@ -2100,13 +2067,13 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Erosoes_e_Dilatacoes_Morfologicas_Binarias_Sequenciais_Rapidas. -->
 
-    <owl:Thing rdf:about="&j.0;Erosoes_e_Dilatacoes_Morfologicas_Binarias_Sequenciais_Rapidas.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
+    <j.0:Trabalho rdf:about="&j.0;Erosoes_e_Dilatacoes_Morfologicas_Binarias_Sequenciais_Rapidas.">
         <rdf:type rdf:resource="&j.0;Tese"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2008"/>
         <j.0:publicado_por rdf:resource="&j.0;Anderson_Fraiha_Machado"/>
-    </owl:Thing>
+    </j.0:Trabalho>
     
 
 
@@ -2130,43 +2097,43 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Estela_Maris_Rodrigues -->
 
-    <owl:Thing rdf:about="&j.0;Estela_Maris_Rodrigues">
-        <rdf:type rdf:resource="&j.0;Aluno"/>
+    <j.0:Aluno rdf:about="&j.0;Estela_Maris_Rodrigues">
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou rdf:resource="&j.0;Algoritmos_para_Comparacao_de_Arvores_Filogeneticas_e_o_Problema_dos_Pontos_de_Recombinacao."/>
         <j.0:orientado_por rdf:resource="&j.0;Yoshiko"/>
-    </owl:Thing>
+    </j.0:Aluno>
     
 
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Estimativas_de_Entropia_para_Sequencias_de_DNA. -->
 
-    <owl:Thing rdf:about="&j.0;Estimativas_de_Entropia_para_Sequencias_de_DNA.">
+    <j.0:Tese rdf:about="&j.0;Estimativas_de_Entropia_para_Sequencias_de_DNA.">
         <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
-        <rdf:type rdf:resource="&j.0;Tese"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2001"/>
         <j.0:publicado_por rdf:resource="&j.0;Jose_Osvaldo_Couto_Horta"/>
-    </owl:Thing>
+    </j.0:Tese>
     
 
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Estruturas_Graficas_de_Matrizes -->
 
-    <owl:Thing rdf:about="&j.0;Estruturas_Graficas_de_Matrizes">
+    <j.0:Tese rdf:about="&j.0;Estruturas_Graficas_de_Matrizes">
         <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
-        <rdf:type rdf:resource="&j.0;Tese"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;1990"/>
         <j.0:publicado_por rdf:resource="&j.0;Coelho"/>
-    </owl:Thing>
+    </j.0:Tese>
     
 
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Estudo_de_Requisitos_para_um_Software_Educacional_de_Apoio_a_Disciplinas_de_Introducao_a_Computacao. -->
 
     <owl:Thing rdf:about="&j.0;Estudo_de_Requisitos_para_um_Software_Educacional_de_Apoio_a_Disciplinas_de_Introducao_a_Computacao.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Tese"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2001"/>
         <j.0:publicado_por rdf:resource="&j.0;Maria_Clara_Barros_de_Oliveira_Fischer"/>
@@ -2227,23 +2194,23 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Experiences_Tracking_Agile_Projects:_An_Empirical_Study. -->
 
-    <owl:Thing rdf:about="&j.0;Experiences_Tracking_Agile_Projects:_An_Empirical_Study.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
+    <j.0:Trabalho rdf:about="&j.0;Experiences_Tracking_Agile_Projects:_An_Empirical_Study.">
         <rdf:type rdf:resource="&j.0;Artigo"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2006"/>
         <j.0:publicado_por rdf:resource="&j.0;Danilo_Sato"/>
         <j.0:publicado_por rdf:resource="&j.0;Fabio"/>
         <j.0:publicado_na rdf:resource="&j.0;Journal_of_the_Brazilian_Computer_Society"/>
-    </owl:Thing>
+    </j.0:Trabalho>
     
 
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Extending_Extreme_Programming_with_Practices_from_Other_Methodologies. -->
 
     <owl:Thing rdf:about="&j.0;Extending_Extreme_Programming_with_Practices_from_Other_Methodologies.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
         <rdf:type rdf:resource="&j.0;Artigo"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2007"/>
         <j.0:publicado_por rdf:resource="&j.0;Alfredo"/>
@@ -2312,22 +2279,22 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Facts,_Annotations,_Arguments,_and_Reasoning. -->
 
-    <owl:Thing rdf:about="&j.0;Facts,_Annotations,_Arguments,_and_Reasoning.">
+    <j.0:Artigo rdf:about="&j.0;Facts,_Annotations,_Arguments,_and_Reasoning.">
         <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
-        <rdf:type rdf:resource="&j.0;Artigo"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2001"/>
         <j.0:publicado_por rdf:resource="&j.0;Flavio"/>
         <j.0:publicado_na rdf:resource="&j.0;New_Generation_Computing"/>
-    </owl:Thing>
+    </j.0:Artigo>
     
 
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Feature_Selection_Algorithms_to_Find_Strong_Genes. -->
 
     <owl:Thing rdf:about="&j.0;Feature_Selection_Algorithms_to_Find_Strong_Genes.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
         <rdf:type rdf:resource="&j.0;Artigo"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2005"/>
         <j.0:publicado_por rdf:resource="&j.0;Junior"/>
@@ -2350,11 +2317,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Finding_Optimal_Sequential_Decompositions_of_Erosions_and_Dilations. -->
 
     <owl:Thing rdf:about="&j.0;Finding_Optimal_Sequential_Decompositions_of_Erosions_and_Dilations.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
         <rdf:type rdf:resource="&j.0;Artigo"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
         <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
-        <rdf:type rdf:resource="&j.0;Artigo"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:apresentado_em rdf:resource="&j.0;Holanda"/>
         <j.0:publicado_por rdf:resource="&j.0;Junior"/>
@@ -2431,8 +2395,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Fluxos_Maximos_Em_Redes:_Algoritmos_e_Estrutura_de_Dados. -->
 
     <owl:Thing rdf:about="&j.0;Fluxos_Maximos_Em_Redes:_Algoritmos_e_Estrutura_de_Dados.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Tese"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;1992"/>
         <j.0:publicado_por rdf:resource="&j.0;Roberto_Duo"/>
@@ -2482,8 +2446,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Free_Burnside_Semigroups. -->
 
     <owl:Thing rdf:about="&j.0;Free_Burnside_Semigroups.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
         <rdf:type rdf:resource="&j.0;Artigo"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicado_por rdf:resource="&j.0;2001"/>
         <j.0:publicado_por rdf:resource="&j.0;Alair_Pereira_do_Lago"/>
@@ -2496,8 +2460,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Free_Subgroups_in_the_Group_of_Units_of_a_Twisted_Group_Algebra -->
 
     <owl:Thing rdf:about="&j.0;Free_Subgroups_in_the_Group_of_Units_of_a_Twisted_Group_Algebra">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
         <rdf:type rdf:resource="&j.0;Artigo"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2001"/>
         <j.0:publicado_por rdf:resource="&j.0;Arnaldo"/>
@@ -2541,24 +2505,24 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#From_the_sup-decomposition_to_sequential_decompositions. -->
 
-    <j.0:Artigo_em_Revista rdf:about="&j.0;From_the_sup-decomposition_to_sequential_decompositions.">
+    <j.0:Artigo rdf:about="&j.0;From_the_sup-decomposition_to_sequential_decompositions.">
         <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
-        <rdf:type rdf:resource="&j.0;Artigo"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2001"/>
         <j.0:publicado_na rdf:resource="&j.0;Journal_of_Mathematical_Imaging_and_Vision"/>
         <j.0:publicado_por rdf:resource="&j.0;Junior"/>
         <j.0:publicado_por rdf:resource="&j.0;Ronaldo"/>
-    </j.0:Artigo_em_Revista>
+    </j.0:Artigo>
     
 
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Funcoes_valor_na_alocacao_de_tarefas_em_sistemas_roboticos. -->
 
     <owl:Thing rdf:about="&j.0;Funcoes_valor_na_alocacao_de_tarefas_em_sistemas_roboticos.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Tese"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2006"/>
         <j.0:publicado_por rdf:resource="&j.0;Antonio_Luis_Basile"/>
@@ -2596,13 +2560,13 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Gestao_da_Cultura_no_Teletrabalho. -->
 
-    <owl:Thing rdf:about="&j.0;Gestao_da_Cultura_no_Teletrabalho.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
+    <j.0:Trabalho rdf:about="&j.0;Gestao_da_Cultura_no_Teletrabalho.">
         <rdf:type rdf:resource="&j.0;Tese"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2002"/>
         <j.0:publicado_por rdf:resource="&j.0;Edner_Ferreira_Braga_da_Silva"/>
-    </owl:Thing>
+    </j.0:Trabalho>
     
 
 
@@ -2618,13 +2582,13 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Gestao_do_Conhecimento_em_Empresas_do_Governo. -->
 
-    <owl:Thing rdf:about="&j.0;Gestao_do_Conhecimento_em_Empresas_do_Governo.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
+    <j.0:Trabalho rdf:about="&j.0;Gestao_do_Conhecimento_em_Empresas_do_Governo.">
         <rdf:type rdf:resource="&j.0;Tese"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2003"/>
         <j.0:publicado_por rdf:resource="&j.0;Maria_de_Lourdes_Rosalem"/>
-    </owl:Thing>
+    </j.0:Trabalho>
     
 
 
@@ -2663,8 +2627,6 @@
 
     <owl:Thing rdf:about="&j.0;Grupos_Maximais_em_Semigrupos_de_Burnside_Livres.">
         <rdf:type rdf:resource="&j.0;Tese_de_Doutorado"/>
-        <rdf:type rdf:resource="&j.0;Tese"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;1998"/>
         <j.0:publicado_por rdf:resource="&j.0;Alair_Pereira_do_Lago"/>
     </owl:Thing>
@@ -2772,9 +2734,9 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#IEEE_Distributed_Systems_Online -->
 
-    <owl:Thing rdf:about="&j.0;IEEE_Distributed_Systems_Online">
-        <rdf:type rdf:resource="&j.0;Revista"/>
-    </owl:Thing>
+    <j.0:Revista rdf:about="&j.0;IEEE_Distributed_Systems_Online">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </j.0:Revista>
     
 
 
@@ -2797,13 +2759,13 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Identificacao_de_sistemas_dinamicos_finitos:_aplicacoes_para_a_modelagem_de_redes_geneticas. -->
 
-    <owl:Thing rdf:about="&j.0;Identificacao_de_sistemas_dinamicos_finitos:_aplicacoes_para_a_modelagem_de_redes_geneticas.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
+    <j.0:Trabalho rdf:about="&j.0;Identificacao_de_sistemas_dinamicos_finitos:_aplicacoes_para_a_modelagem_de_redes_geneticas.">
         <rdf:type rdf:resource="&j.0;Tese"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2002"/>
         <j.0:publicado_por rdf:resource="&j.0;Nestor_Walter_Trepode"/>
-    </owl:Thing>
+    </j.0:Trabalho>
     
 
 
@@ -2821,8 +2783,6 @@
 
     <owl:Thing rdf:about="&j.0;Impact_des_modeles_deexecution_pour_leordonnancement_en_calcul_parallele">
         <rdf:type rdf:resource="&j.0;Tese_de_Doutorado"/>
-        <rdf:type rdf:resource="&j.0;Tese"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;1999"/>
         <j.0:publicado_por rdf:resource="&j.0;Alfredo"/>
     </owl:Thing>
@@ -2831,14 +2791,14 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Improved_bound_for_the_Caratheodory_rank_of_the_bases_of_a_matroid. -->
 
-    <owl:Thing rdf:about="&j.0;Improved_bound_for_the_Caratheodory_rank_of_the_bases_of_a_matroid.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
+    <j.0:Trabalho rdf:about="&j.0;Improved_bound_for_the_Caratheodory_rank_of_the_bases_of_a_matroid.">
         <rdf:type rdf:resource="&j.0;Artigo"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2003"/>
         <j.0:publicado_por rdf:resource="&j.0;Coelho"/>
         <j.0:publicado_na rdf:resource="&j.0;Journal_of_Combinatorial_Theory"/>
-    </owl:Thing>
+    </j.0:Trabalho>
     
 
 
@@ -2878,8 +2838,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Inference_from_clustering_with_application_to_gene_expression_microarrays. -->
 
     <owl:Thing rdf:about="&j.0;Inference_from_clustering_with_application_to_gene_expression_microarrays.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
         <rdf:type rdf:resource="&j.0;Artigo"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2002"/>
         <j.0:publicado_na rdf:resource="&j.0;Journal_of_Computational_Biology"/>
@@ -2904,8 +2864,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Informacao:_computacao_e_comunicacao -->
 
     <owl:Thing rdf:about="&j.0;Informacao:_computacao_e_comunicacao">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
         <rdf:type rdf:resource="&j.0;Artigo"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;1997"/>
         <j.0:publicado_por rdf:resource="&j.0;Arnaldo"/>
@@ -2961,16 +2921,16 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Intelligent_Mobile_Multi-robotic_Systems:_some_Challenges_and_Possible_Solutions. -->
 
-    <j.0:Artigo_em_Conferência rdf:about="&j.0;Intelligent_Mobile_Multi-robotic_Systems:_some_Challenges_and_Possible_Solutions.">
+    <j.0:Artigo rdf:about="&j.0;Intelligent_Mobile_Multi-robotic_Systems:_some_Challenges_and_Possible_Solutions.">
         <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
-        <rdf:type rdf:resource="&j.0;Artigo"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Confer&#234;ncia"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2005"/>
         <j.0:apresentado_em rdf:resource="&j.0;Espanha"/>
         <j.0:publicado_por rdf:resource="&j.0;Flavio"/>
         <j.0:publicado_por rdf:resource="&j.0;Renata"/>
-    </j.0:Artigo_em_Conferência>
+    </j.0:Artigo>
     
 
 
@@ -2984,14 +2944,14 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Intrinsically_Multivariate_Predictive_Genes. -->
 
-    <owl:Thing rdf:about="&j.0;Intrinsically_Multivariate_Predictive_Genes.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
+    <j.0:Trabalho rdf:about="&j.0;Intrinsically_Multivariate_Predictive_Genes.">
         <rdf:type rdf:resource="&j.0;Artigo"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2008"/>
         <j.0:publicou_em rdf:resource="&j.0;IEEE_Journal_of_Selected_Topics_in_Signal_Processing"/>
         <j.0:publicado_por rdf:resource="&j.0;Ronaldo"/>
-    </owl:Thing>
+    </j.0:Trabalho>
     
 
 
@@ -3178,8 +3138,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#K-SUBCONJUNTOS_LIMITADOS_DE_UM_MONOIDE_LIVRE -->
 
     <owl:Thing rdf:about="&j.0;K-SUBCONJUNTOS_LIMITADOS_DE_UM_MONOIDE_LIVRE">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Tese"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;1976"/>
         <j.0:publicado_por rdf:resource="&j.0;Arnaldo"/>
@@ -3208,8 +3168,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Learning_Management_Systems_Desiderata_for_Competitive_Universities. -->
 
     <owl:Thing rdf:about="&j.0;Learning_Management_Systems_Desiderata_for_Competitive_Universities.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
         <rdf:type rdf:resource="&j.0;Artigo"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2007"/>
         <j.0:publicado_na rdf:resource="&j.0;European_Journal_of_Open,_Distance_and_E-Learning"/>
@@ -3221,7 +3181,6 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Lempel,_Even,_and_Cederbaum_Planarith_Method. -->
 
     <j.0:Artigo_em_Conferencia rdf:about="&j.0;Lempel,_Even,_and_Cederbaum_Planarith_Method.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
         <rdf:type rdf:resource="&j.0;Artigo"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <rdf:type rdf:resource="&owl;Thing"/>
@@ -3234,14 +3193,14 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Length-bounded_disjoint_paths_in_planar_graphs. -->
 
-    <owl:Thing rdf:about="&j.0;Length-bounded_disjoint_paths_in_planar_graphs.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
+    <j.0:Trabalho rdf:about="&j.0;Length-bounded_disjoint_paths_in_planar_graphs.">
         <rdf:type rdf:resource="&j.0;Artigo"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2002"/>
         <j.0:publicado_por rdf:resource="&j.0;Coelho"/>
         <j.0:publicado_na rdf:resource="&j.0;Discrete_Applied_Mathematics"/>
-    </owl:Thing>
+    </j.0:Trabalho>
     
 
 
@@ -3277,13 +3236,13 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Logicas_Anotadas:_Teoria_e_Aplicacoes. -->
 
-    <owl:Thing rdf:about="&j.0;Logicas_Anotadas:_Teoria_e_Aplicacoes.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
+    <j.0:Trabalho rdf:about="&j.0;Logicas_Anotadas:_Teoria_e_Aplicacoes.">
         <rdf:type rdf:resource="&j.0;Tese"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;1996"/>
         <j.0:publicado_por rdf:resource="&j.0;Daniela_Vasconcelos_Carbogim"/>
-    </owl:Thing>
+    </j.0:Trabalho>
     
 
 
@@ -3299,24 +3258,24 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Managing_Responsive_Environments_with_Software_Agents. -->
 
-    <owl:Thing rdf:about="&j.0;Managing_Responsive_Environments_with_Software_Agents.">
+    <j.0:Artigo rdf:about="&j.0;Managing_Responsive_Environments_with_Software_Agents.">
         <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
-        <rdf:type rdf:resource="&j.0;Artigo"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2007"/>
         <j.0:publicado_na rdf:resource="&j.0;Applied_Artificial_Intelligence"/>
         <j.0:publicado_por rdf:resource="&j.0;Flavio"/>
-    </owl:Thing>
+    </j.0:Artigo>
     
 
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Marcel_Brun -->
 
-    <owl:Thing rdf:about="&j.0;Marcel_Brun">
-        <rdf:type rdf:resource="&j.0;Aluno"/>
+    <j.0:Aluno rdf:about="&j.0;Marcel_Brun">
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:orientado_por rdf:resource="&j.0;Junior"/>
         <j.0:publicou rdf:resource="&j.0;Projetos_de_operadores_morfologicos_multi-escala_por_otimizacao_estatistica."/>
-    </owl:Thing>
+    </j.0:Aluno>
     
 
 
@@ -3457,8 +3416,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Matematica_e_algoritmos_das_dobras. -->
 
     <owl:Thing rdf:about="&j.0;Matematica_e_algoritmos_das_dobras.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Tese"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2007"/>
         <j.0:publicado_por rdf:resource="&j.0;Paulo_Eduardo_Azevedo_Silveira"/>
@@ -3489,7 +3448,6 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Microarray_Gridding_by_Mathematical_Morphology. -->
 
     <j.0:Artigo_em_Conferencia rdf:about="&j.0;Microarray_Gridding_by_Mathematical_Morphology.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
         <rdf:type rdf:resource="&j.0;Artigo"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <rdf:type rdf:resource="&owl;Thing"/>
@@ -3525,26 +3483,23 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Modeling_cell_cycle_regulation_by_discrete_dynamical_systems. -->
 
-    <owl:Thing rdf:about="&j.0;Modeling_cell_cycle_regulation_by_discrete_dynamical_systems.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
+    <j.0:Trabalho rdf:about="&j.0;Modeling_cell_cycle_regulation_by_discrete_dynamical_systems.">
         <rdf:type rdf:resource="&j.0;Artigo"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
         <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
-        <rdf:type rdf:resource="&j.0;Artigo"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2005"/>
         <j.0:publicado_por rdf:resource="&j.0;Junior"/>
         <j.0:apresentado_em rdf:resource="&j.0;Reino_Unido"/>
         <j.0:publicado_por rdf:resource="&j.0;Ronaldo"/>
-    </owl:Thing>
+    </j.0:Trabalho>
     
 
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Modeling_literal_morphisms_by_shuffle. -->
 
     <owl:Thing rdf:about="&j.0;Modeling_literal_morphisms_by_shuffle.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
         <rdf:type rdf:resource="&j.0;Artigo"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;1998"/>
         <j.0:publicado_por rdf:resource="&j.0;Imre"/>
@@ -3577,14 +3532,14 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Multiresolution_design_of_aperture_operators. -->
 
-    <owl:Thing rdf:about="&j.0;Multiresolution_design_of_aperture_operators.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
+    <j.0:Trabalho rdf:about="&j.0;Multiresolution_design_of_aperture_operators.">
         <rdf:type rdf:resource="&j.0;Artigo"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2002"/>
         <j.0:publicado_na rdf:resource="&j.0;Journal_of_Mathematical_Imaging_and_Vision"/>
         <j.0:publicado_por rdf:resource="&j.0;Junior"/>
-    </owl:Thing>
+    </j.0:Trabalho>
     
 
 
@@ -3663,26 +3618,26 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Novas_Estruturas_de_Interconexao_a_base_de_Barramentos:_Uma_contribuicao_a_computacao_macicamente_paralela -->
 
-    <owl:Thing rdf:about="&j.0;Novas_Estruturas_de_Interconexao_a_base_de_Barramentos:_Uma_contribuicao_a_computacao_macicamente_paralela">
+    <j.0:Tese rdf:about="&j.0;Novas_Estruturas_de_Interconexao_a_base_de_Barramentos:_Uma_contribuicao_a_computacao_macicamente_paralela">
         <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
-        <rdf:type rdf:resource="&j.0;Tese"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;1994"/>
         <j.0:publicado_por rdf:resource="&j.0;Alfredo"/>
-    </owl:Thing>
+    </j.0:Tese>
     
 
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#O_Oraculo_Bibliografico:_Sonhos_de_um_Pesquisador -->
 
-    <owl:Thing rdf:about="&j.0;O_Oraculo_Bibliografico:_Sonhos_de_um_Pesquisador">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
+    <j.0:Trabalho rdf:about="&j.0;O_Oraculo_Bibliografico:_Sonhos_de_um_Pesquisador">
         <rdf:type rdf:resource="&j.0;Artigo"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2002"/>
         <j.0:publicado_por rdf:resource="&j.0;Imre"/>
         <j.0:publicado_na rdf:resource="&j.0;Revista_USP"/>
-    </owl:Thing>
+    </j.0:Trabalho>
     
 
 
@@ -3698,13 +3653,13 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#O_Problema_do_Subgrafo_Planar_Otimo. -->
 
-    <owl:Thing rdf:about="&j.0;O_Problema_do_Subgrafo_Planar_Otimo.">
+    <j.0:Tese rdf:about="&j.0;O_Problema_do_Subgrafo_Planar_Otimo.">
         <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
-        <rdf:type rdf:resource="&j.0;Tese"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;1994"/>
         <j.0:publicado_por rdf:resource="&j.0;Renato_Jose_da_Silva_Carmo"/>
-    </owl:Thing>
+    </j.0:Tese>
     
 
 
@@ -3720,13 +3675,13 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Obsolescencia_de_Informacao. -->
 
-    <owl:Thing rdf:about="&j.0;Obsolescencia_de_Informacao.">
+    <j.0:Tese rdf:about="&j.0;Obsolescencia_de_Informacao.">
         <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
-        <rdf:type rdf:resource="&j.0;Tese"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2001"/>
         <j.0:publicado_por rdf:resource="&j.0;Sirley_Ambrosia_Vitorio"/>
-    </owl:Thing>
+    </j.0:Tese>
     
 
 
@@ -3751,27 +3706,27 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#On_semigroups_of_matrices_over_the_tropical_semiring -->
 
-    <owl:Thing rdf:about="&j.0;On_semigroups_of_matrices_over_the_tropical_semiring">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
+    <j.0:Trabalho rdf:about="&j.0;On_semigroups_of_matrices_over_the_tropical_semiring">
         <rdf:type rdf:resource="&j.0;Artigo"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;1994"/>
         <j.0:publicado_por rdf:resource="&j.0;Imre"/>
         <j.0:publicado_na rdf:resource="&j.0;Technique_et_Science_Informatiques"/>
-    </owl:Thing>
+    </j.0:Trabalho>
     
 
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#On_the_Insufficiency_of_Ontologies:_Problems_in_Knowledge_Sharing_and_Alternative_Solutions. -->
 
-    <owl:Thing rdf:about="&j.0;On_the_Insufficiency_of_Ontologies:_Problems_in_Knowledge_Sharing_and_Alternative_Solutions.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
+    <j.0:Trabalho rdf:about="&j.0;On_the_Insufficiency_of_Ontologies:_Problems_in_Knowledge_Sharing_and_Alternative_Solutions.">
         <rdf:type rdf:resource="&j.0;Artigo"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2002"/>
         <j.0:publicado_por rdf:resource="&j.0;Flavio"/>
         <j.0:publicado_na rdf:resource="&j.0;Knowledge-Based_Systems"/>
-    </owl:Thing>
+    </j.0:Trabalho>
     
 
 
@@ -3806,8 +3761,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Packing_Problems_with_Orthogonal_Rotations. -->
 
     <j.0:Artigo_em_Conferência rdf:about="&j.0;Packing_Problems_with_Orthogonal_Rotations.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
         <rdf:type rdf:resource="&j.0;Artigo"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2004"/>
@@ -3852,8 +3807,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Parcerias_para_Qualificacao_Profissional. -->
 
     <owl:Thing rdf:about="&j.0;Parcerias_para_Qualificacao_Profissional.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Tese"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2003"/>
         <j.0:publicado_por rdf:resource="&j.0;Maria_Elizabeth_Salomao_Mahafud"/>
@@ -3863,21 +3818,21 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Particao_de_Grafos_em_Subgrafos_Conexos_Balanceados. -->
 
-    <owl:Thing rdf:about="&j.0;Particao_de_Grafos_em_Subgrafos_Conexos_Balanceados.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
+    <j.0:Trabalho rdf:about="&j.0;Particao_de_Grafos_em_Subgrafos_Conexos_Balanceados.">
         <rdf:type rdf:resource="&j.0;Tese"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2007"/>
         <j.0:publicado_por rdf:resource="&j.0;Renato_Lucindo_Pinheiro_Leme"/>
-    </owl:Thing>
+    </j.0:Trabalho>
     
 
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Passeios_e_Conexidade_Em_Grafos_Mistos:_Algoritmos_E_Complexidade_Computacional. -->
 
     <owl:Thing rdf:about="&j.0;Passeios_e_Conexidade_Em_Grafos_Mistos:_Algoritmos_E_Complexidade_Computacional.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Tese"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;1994"/>
         <j.0:publicado_por rdf:resource="&j.0;Orlando_Lee"/>
@@ -3927,8 +3882,6 @@
 
     <owl:Thing rdf:about="&j.0;Poliedros_de_Grafos_Transitivos.">
         <rdf:type rdf:resource="&j.0;Tese_de_Doutorado"/>
-        <rdf:type rdf:resource="&j.0;Tese"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;1992"/>
         <j.0:publicado_por rdf:resource="&j.0;Maria_Angela_Melo_de_Campos_Gurgel"/>
     </owl:Thing>
@@ -3947,14 +3900,14 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Primal-dual_approximation_algorithms_for_the_Prize-Collecting_Steiner_Tree_Problem -->
 
-    <owl:Thing rdf:about="&j.0;Primal-dual_approximation_algorithms_for_the_Prize-Collecting_Steiner_Tree_Problem">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
+    <j.0:Trabalho rdf:about="&j.0;Primal-dual_approximation_algorithms_for_the_Prize-Collecting_Steiner_Tree_Problem">
         <rdf:type rdf:resource="&j.0;Artigo"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2007"/>
         <j.0:publicado_por rdf:resource="&j.0;Coelho"/>
         <j.0:publicado_na rdf:resource="&j.0;Information_Processing_Letters"/>
-    </owl:Thing>
+    </j.0:Trabalho>
     
 
 
@@ -3989,8 +3942,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Programacao_automatica_de_maquinas_morfologicas_binarias_baseada_em_aprendizado_PAC. -->
 
     <owl:Thing rdf:about="&j.0;Programacao_automatica_de_maquinas_morfologicas_binarias_baseada_em_aprendizado_PAC.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Tese"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;1996"/>
         <j.0:publicado_por rdf:resource="&j.0;Nina_S_T_Tomita"/>
@@ -4002,8 +3955,6 @@
 
     <owl:Thing rdf:about="&j.0;Projeto_automatico_de_operadores_explorando_conhecimento_a_priori.">
         <rdf:type rdf:resource="&j.0;Tese_de_Doutorado"/>
-        <rdf:type rdf:resource="&j.0;Tese"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2000"/>
         <j.0:publicado_por rdf:resource="&j.0;Nina_S_T_Tomita"/>
     </owl:Thing>
@@ -4014,8 +3965,6 @@
 
     <owl:Thing rdf:about="&j.0;Projeto_de_operadores_morfologicos_para_imagens_e_sinais:_abordagem_de_reticulados_finitos.">
         <rdf:type rdf:resource="&j.0;Tese_de_Doutorado"/>
-        <rdf:type rdf:resource="&j.0;Tese"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2001"/>
         <j.0:publicado_por rdf:resource="&j.0;Roberto_Hirata_Jr"/>
     </owl:Thing>
@@ -4036,8 +3985,6 @@
 
     <owl:Thing rdf:about="&j.0;Projetos_de_operadores_morfologicos_multi-escala_por_otimizacao_estatistica.">
         <rdf:type rdf:resource="&j.0;Tese_de_Doutorado"/>
-        <rdf:type rdf:resource="&j.0;Tese"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2002"/>
         <j.0:publicado_por rdf:resource="&j.0;Marcel_Brun"/>
     </owl:Thing>
@@ -4048,8 +3995,6 @@
 
     <owl:Thing rdf:about="&j.0;Propriedades_de_M-subconjuntos_reconheciveis_de_um_monoide_livre.">
         <rdf:type rdf:resource="&j.0;Tese_de_Doutorado"/>
-        <rdf:type rdf:resource="&j.0;Tese"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;1991"/>
         <j.0:publicado_por rdf:resource="&j.0;Nami_Kobayashi"/>
     </owl:Thing>
@@ -4059,8 +4004,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Propriedades_de_conjuntos-igualdade_de_codigos. -->
 
     <owl:Thing rdf:about="&j.0;Propriedades_de_conjuntos-igualdade_de_codigos.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Tese"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;1983"/>
         <j.0:publicado_por rdf:resource="&j.0;Nami_Kobayashi"/>
@@ -4070,13 +4015,13 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Protocolos_P2P_para_Interligacao_de_Aglomerados_em_Grades_Computacionais. -->
 
-    <owl:Thing rdf:about="&j.0;Protocolos_P2P_para_Interligacao_de_Aglomerados_em_Grades_Computacionais.">
+    <j.0:Tese rdf:about="&j.0;Protocolos_P2P_para_Interligacao_de_Aglomerados_em_Grades_Computacionais.">
         <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
-        <rdf:type rdf:resource="&j.0;Tese"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2005"/>
         <j.0:publicado_por rdf:resource="&j.0;Vladimir_Moreira_Rocha"/>
-    </owl:Thing>
+    </j.0:Tese>
     
 
 
@@ -4093,8 +4038,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Recuperacao_de_videos_indexados_por_conceitos. -->
 
     <owl:Thing rdf:about="&j.0;Recuperacao_de_videos_indexados_por_conceitos.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Tese"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2005"/>
         <j.0:publicado_por rdf:resource="&j.0;Christian_Danniel_Paz-Trillo"/>
@@ -4114,13 +4059,13 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Reflexoes_sobre_o_Ensino_de_Metodologias_ageis_na_Academia,_na_Industria_e_no_Governo. -->
 
-    <owl:Thing rdf:about="&j.0;Reflexoes_sobre_o_Ensino_de_Metodologias_ageis_na_Academia,_na_Industria_e_no_Governo.">
+    <j.0:Tese rdf:about="&j.0;Reflexoes_sobre_o_Ensino_de_Metodologias_ageis_na_Academia,_na_Industria_e_no_Governo.">
         <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
-        <rdf:type rdf:resource="&j.0;Tese"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2007"/>
         <j.0:publicado_por rdf:resource="&j.0;Alexandre_Freire_da_Silva"/>
-    </owl:Thing>
+    </j.0:Tese>
     
 
 
@@ -4198,8 +4143,6 @@
 
     <owl:Thing rdf:about="&j.0;Representacao_de_sistemas_biologicos_a_partir_de_sistemas_dinamicos:_controle_da_transcricao_a_partir_do_estrogeno.">
         <rdf:type rdf:resource="&j.0;Tese_de_Doutorado"/>
-        <rdf:type rdf:resource="&j.0;Tese"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2008"/>
         <j.0:publicado_por rdf:resource="&j.0;Marcelo_Ris"/>
     </owl:Thing>
@@ -4210,8 +4153,6 @@
 
     <owl:Thing rdf:about="&j.0;Resource_Bounded_Belief_Revision">
         <rdf:type rdf:resource="&j.0;Tese_de_Doutorado"/>
-        <rdf:type rdf:resource="&j.0;Tese"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2000"/>
         <j.0:publicado_por rdf:resource="&j.0;Renata"/>
     </owl:Thing>
@@ -4221,8 +4162,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Revisao_de_modelos_formais_de_sistemas_de_estados_finitos. -->
 
     <owl:Thing rdf:about="&j.0;Revisao_de_modelos_formais_de_sistemas_de_estados_finitos.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Tese"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2007"/>
     </owl:Thing>
@@ -4375,8 +4316,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Segmentacao_de_imagens_por_tecnicas_da_morfologia_matematica. -->
 
     <owl:Thing rdf:about="&j.0;Segmentacao_de_imagens_por_tecnicas_da_morfologia_matematica.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Tese"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;1997"/>
         <j.0:publicado_por rdf:resource="&j.0;Roberto_Hirata_Jr"/>
@@ -4405,8 +4346,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Servicos_de_pertinencia_para_clusters_de_alta_disponibilidade. -->
 
     <owl:Thing rdf:about="&j.0;Servicos_de_pertinencia_para_clusters_de_alta_disponibilidade.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Tese"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2002"/>
         <j.0:publicado_por rdf:resource="&j.0;Nelio_Alves_Pereira_Pinto"/>
@@ -4426,13 +4367,13 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Simulacao_Acustica_no_Ambiente_AcMus. -->
 
-    <owl:Thing rdf:about="&j.0;Simulacao_Acustica_no_Ambiente_AcMus.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
+    <j.0:Trabalho rdf:about="&j.0;Simulacao_Acustica_no_Ambiente_AcMus.">
         <rdf:type rdf:resource="&j.0;Tese"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2008"/>
         <j.0:publicado_por rdf:resource="&j.0;Mario_Henrique_Cruz_Torres"/>
-    </owl:Thing>
+    </j.0:Trabalho>
     
 
 
@@ -4448,23 +4389,22 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Sistema_Movel_Multimidia_de_Codigo_Aberto_para_Atencao_Primaria_de_Saude_com_Visitas_Domiciliares. -->
 
-    <j.0:Artigo_em_Conferencia rdf:about="&j.0;Sistema_Movel_Multimidia_de_Codigo_Aberto_para_Atencao_Primaria_de_Saude_com_Visitas_Domiciliares.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
+    <j.0:Trabalho rdf:about="&j.0;Sistema_Movel_Multimidia_de_Codigo_Aberto_para_Atencao_Primaria_de_Saude_com_Visitas_Domiciliares.">
         <rdf:type rdf:resource="&j.0;Artigo"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
         <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2009"/>
         <j.0:apresentado_em rdf:resource="&j.0;Brasil"/>
         <j.0:publicado_por rdf:resource="&j.0;Fabio"/>
-    </j.0:Artigo_em_Conferencia>
+    </j.0:Trabalho>
     
 
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Sistema_de_Arquivos_Especializado_para_Correio_Eletronico. -->
 
     <owl:Thing rdf:about="&j.0;Sistema_de_Arquivos_Especializado_para_Correio_Eletronico.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Tese"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2006"/>
         <j.0:publicado_por rdf:resource="&j.0;Eider_Silva_de_Oliveira"/>
@@ -4485,8 +4425,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Sistemas_Tutores_Inteligentes_e_Sua_Aplicacao_em_Empresas. -->
 
     <owl:Thing rdf:about="&j.0;Sistemas_Tutores_Inteligentes_e_Sua_Aplicacao_em_Empresas.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Tese"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2000"/>
         <j.0:publicado_por rdf:resource="&j.0;Mary_Yorinori"/>
@@ -4516,33 +4456,33 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Sobre_Grafos_Hamiltonianos. -->
 
-    <owl:Thing rdf:about="&j.0;Sobre_Grafos_Hamiltonianos.">
+    <j.0:Tese rdf:about="&j.0;Sobre_Grafos_Hamiltonianos.">
         <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
-        <rdf:type rdf:resource="&j.0;Tese"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;1977"/>
         <j.0:publicado_por rdf:resource="&j.0;Yoshiko"/>
-    </owl:Thing>
+    </j.0:Tese>
     
 
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Sobre_os_Numeros_de_Ramsey. -->
 
-    <owl:Thing rdf:about="&j.0;Sobre_os_Numeros_de_Ramsey.">
+    <j.0:Tese rdf:about="&j.0;Sobre_os_Numeros_de_Ramsey.">
         <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
-        <rdf:type rdf:resource="&j.0;Tese"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;1974"/>
         <j.0:publicado_por rdf:resource="&j.0;Paulo_Feofiloff"/>
-    </owl:Thing>
+    </j.0:Tese>
     
 
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Sobre_os_semigrupos_de_Burnside -->
 
     <owl:Thing rdf:about="&j.0;Sobre_os_semigrupos_de_Burnside">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Tese"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;1991"/>
         <j.0:publicado_por rdf:resource="&j.0;Alair_Pereira_do_Lago"/>
@@ -4593,8 +4533,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Strong_feature_sets_from_small_samples. -->
 
     <owl:Thing rdf:about="&j.0;Strong_feature_sets_from_small_samples.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
         <rdf:type rdf:resource="&j.0;Artigo"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2002"/>
         <j.0:publicado_na rdf:resource="&j.0;Journal_of_Computational_Biology"/>
@@ -4606,11 +4546,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Stylistic_Musical_Choices_Via_Fuzzy_Preference_Rules. -->
 
     <owl:Thing rdf:about="&j.0;Stylistic_Musical_Choices_Via_Fuzzy_Preference_Rules.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
         <rdf:type rdf:resource="&j.0;Artigo"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
         <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
-        <rdf:type rdf:resource="&j.0;Artigo"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;1995"/>
         <j.0:apresentado_em rdf:resource="&j.0;Brasil"/>
@@ -4623,8 +4560,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Sub-compact_and_inf-compact_representations_of_W-operators. -->
 
     <owl:Thing rdf:about="&j.0;Sub-compact_and_inf-compact_representations_of_W-operators.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
         <rdf:type rdf:resource="&j.0;Artigo"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Revista"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2001"/>
         <j.0:publicado_na rdf:resource="&j.0;Fundamenta_Informaticae"/>
@@ -4644,21 +4581,21 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Testing_and_Extending_the_Incidence_Calculus. -->
 
-    <owl:Thing rdf:about="&j.0;Testing_and_Extending_the_Incidence_Calculus.">
+    <j.0:Tese rdf:about="&j.0;Testing_and_Extending_the_Incidence_Calculus.">
         <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
-        <rdf:type rdf:resource="&j.0;Tese"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;1992"/>
         <j.0:publicado_por rdf:resource="&j.0;Roderick_Mclean"/>
-    </owl:Thing>
+    </j.0:Tese>
     
 
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#The_Implementation_of_the_BSP_Parallel_Computing_Model_on_the_InteGrade_Grid_Middleware. -->
 
     <owl:Thing rdf:about="&j.0;The_Implementation_of_the_BSP_Parallel_Computing_Model_on_the_InteGrade_Grid_Middleware.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
         <rdf:type rdf:resource="&j.0;Artigo"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2005"/>
         <j.0:publicado_por rdf:resource="&j.0;Andrei_Goldchleger"/>
@@ -4678,14 +4615,14 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#The_incremental_splitting_of_intervals_algorithm_for_the_design_of_binary_image_operators. -->
 
-    <owl:Thing rdf:about="&j.0;The_incremental_splitting_of_intervals_algorithm_for_the_design_of_binary_image_operators.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
+    <j.0:Trabalho rdf:about="&j.0;The_incremental_splitting_of_intervals_algorithm_for_the_design_of_binary_image_operators.">
         <rdf:type rdf:resource="&j.0;Artigo"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2002"/>
         <j.0:apresentado_em rdf:resource="&j.0;Australia"/>
         <j.0:publicado_por rdf:resource="&j.0;Junior"/>
-    </owl:Thing>
+    </j.0:Trabalho>
     
 
 
@@ -4730,22 +4667,21 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Towards_Efficient_Modelling_Of_Distributed_Knowledge_Using_Equational_And_Order-Sorted_Logic. -->
 
-    <owl:Thing rdf:about="&j.0;Towards_Efficient_Modelling_Of_Distributed_Knowledge_Using_Equational_And_Order-Sorted_Logic.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
+    <j.0:Trabalho rdf:about="&j.0;Towards_Efficient_Modelling_Of_Distributed_Knowledge_Using_Equational_And_Order-Sorted_Logic.">
         <rdf:type rdf:resource="&j.0;Artigo"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicado_por rdf:resource="&j.0;1994"/>
         <j.0:apresentado_em rdf:resource="&j.0;Brasil"/>
         <j.0:publicado_por rdf:resource="&j.0;Flavio"/>
         <j.0:publicado_por rdf:resource="&j.0;Renata"/>
-    </owl:Thing>
+    </j.0:Trabalho>
     
 
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Tracking_the_Evolution_of_Object_Oriented_Quality_Metrics. -->
 
     <j.0:Artigo_em_Conferencia rdf:about="&j.0;Tracking_the_Evolution_of_Object_Oriented_Quality_Metrics.">
-        <rdf:type rdf:resource="&j.0;Artigo_em_Conferencia"/>
         <rdf:type rdf:resource="&j.0;Artigo"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <rdf:type rdf:resource="&owl;Thing"/>
@@ -4758,21 +4694,21 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Um_Arcabouco_para_Reconfiguracao_Dinamica_de_Aplicacoes_em_Java. -->
 
-    <owl:Thing rdf:about="&j.0;Um_Arcabouco_para_Reconfiguracao_Dinamica_de_Aplicacoes_em_Java.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
+    <j.0:Trabalho rdf:about="&j.0;Um_Arcabouco_para_Reconfiguracao_Dinamica_de_Aplicacoes_em_Java.">
         <rdf:type rdf:resource="&j.0;Tese"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2005"/>
         <j.0:publicado_por rdf:resource="&j.0;Ricardo_Koji_Ushizaki"/>
-    </owl:Thing>
+    </j.0:Trabalho>
     
 
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Um_Estudo_Empirico_de_Hiper-heuristicas. -->
 
     <owl:Thing rdf:about="&j.0;Um_Estudo_Empirico_de_Hiper-heuristicas.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Tese"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2007"/>
         <j.0:publicado_por rdf:resource="&j.0;Igor_Ribeiro_Sucupira"/>
@@ -4784,8 +4720,6 @@
 
     <owl:Thing rdf:about="&j.0;Um_Modelo_Formal_para_a_Quinta_Disciplina.">
         <rdf:type rdf:resource="&j.0;Tese_de_Doutorado"/>
-        <rdf:type rdf:resource="&j.0;Tese"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2004"/>
         <j.0:publicado_por rdf:resource="&j.0;Lourival_Paulino_da_Silva"/>
     </owl:Thing>
@@ -4805,8 +4739,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Um_Modelo_para_Ambientes_Inteligentes_Baseado_em_Servicos_Web_Semanticos. -->
 
     <owl:Thing rdf:about="&j.0;Um_Modelo_para_Ambientes_Inteligentes_Baseado_em_Servicos_Web_Semanticos.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Tese"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2007"/>
         <j.0:publicado_por rdf:resource="&j.0;Crhistian_Noriega"/>
@@ -4817,8 +4751,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Um_teorema_mini-max_para_conjuntos_parcialmente_ordenados_finitos. -->
 
     <owl:Thing rdf:about="&j.0;Um_teorema_mini-max_para_conjuntos_parcialmente_ordenados_finitos.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Tese"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;1978"/>
         <j.0:publicado_por rdf:resource="&j.0;Maria_Angela_Melo_de_Campos_Gurgel"/>
@@ -4871,8 +4805,6 @@
 
     <owl:Thing rdf:about="&j.0;Uma_abordagem_unificada_para_os_problemas_de_visao_computacional:_a_morfologia_matematica">
         <rdf:type rdf:resource="&j.0;Tese_de_Doutorado"/>
-        <rdf:type rdf:resource="&j.0;Tese"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;1992"/>
         <j.0:publicado_por rdf:resource="&j.0;Junior"/>
     </owl:Thing>
@@ -4882,8 +4814,8 @@
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Uma_ferramenta_para_o_ensino_de_inteligencia_artificial_usando_jogos_de_computador. -->
 
     <owl:Thing rdf:about="&j.0;Uma_ferramenta_para_o_ensino_de_inteligencia_artificial_usando_jogos_de_computador.">
-        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Tese"/>
+        <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2008"/>
         <j.0:publicado_por rdf:resource="&j.0;Filipe_Correa_Lima_da_Silva"/>
@@ -4893,13 +4825,13 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Uma_tecnica_automatica_para_medida_de_sinal_de_imagens_de_cDNA. -->
 
-    <owl:Thing rdf:about="&j.0;Uma_tecnica_automatica_para_medida_de_sinal_de_imagens_de_cDNA.">
+    <j.0:Tese rdf:about="&j.0;Uma_tecnica_automatica_para_medida_de_sinal_de_imagens_de_cDNA.">
         <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
-        <rdf:type rdf:resource="&j.0;Tese"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2004"/>
         <j.0:publicado_por rdf:resource="&j.0;Daniel_O._Dantas"/>
-    </owl:Thing>
+    </j.0:Tese>
     
 
 
@@ -4914,13 +4846,13 @@
 
     <!-- http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#Validacao_de_medidas_de_expressao_genica_em_imagens_de_microarray. -->
 
-    <owl:Thing rdf:about="&j.0;Validacao_de_medidas_de_expressao_genica_em_imagens_de_microarray.">
+    <j.0:Tese rdf:about="&j.0;Validacao_de_medidas_de_expressao_genica_em_imagens_de_microarray.">
         <rdf:type rdf:resource="&j.0;Tese_de_Mestrado"/>
-        <rdf:type rdf:resource="&j.0;Tese"/>
         <rdf:type rdf:resource="&j.0;Trabalho"/>
+        <rdf:type rdf:resource="&owl;Thing"/>
         <j.0:publicou_em rdf:resource="&j.0;2004"/>
         <j.0:publicado_por rdf:resource="&j.0;Gustavo_P._Esteves"/>
-    </owl:Thing>
+    </j.0:Tese>
     
 
 
@@ -4938,8 +4870,6 @@
 
     <owl:Thing rdf:about="&j.0;Voz_e_video_sobre_redes_sem_fio_IEEE_802.11.">
         <rdf:type rdf:resource="&j.0;Tese_de_Doutorado"/>
-        <rdf:type rdf:resource="&j.0;Tese"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2006"/>
         <j.0:publicado_por rdf:resource="&j.0;Arlindo_Flavio_da_Conceicao"/>
     </owl:Thing>
@@ -4960,8 +4890,6 @@
 
     <owl:Thing rdf:about="&j.0;Xenia:_um_sistema_de_seguranca_para_grades_computacionais_baseado_em_cadeias_de_confianca">
         <rdf:type rdf:resource="&j.0;Tese_de_Doutorado"/>
-        <rdf:type rdf:resource="&j.0;Tese"/>
-        <rdf:type rdf:resource="&j.0;Trabalho"/>
         <j.0:publicou_em rdf:resource="&j.0;2008"/>
         <j.0:publicado_por rdf:resource="&j.0;Jose_de_Ribamar_Braga_Pinheiro_Junior"/>
     </owl:Thing>

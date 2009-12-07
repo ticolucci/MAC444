@@ -1,20 +1,20 @@
 PREFIX :<http://www.semanticweb.org/ontologies/2009/10/Ontology1258388399307.owl#>
 
-SELECT ?um_professor ?nao_professor ?outro_professor
+SELECT DISTINCT ?professor ?nao_professor ?outro_professor
 {
   ?nao_professor a :Aluno .
   ?professor a :Professor .
   ?outro_professor a :Professor .
+
 	?trabalho a :Trabalho .
 	?outro_trabalho a :Trabalho .
   
   ?professor :publicou ?trabalho .
   ?nao_professor :publicou ?trabalho .
   ?nao_professor :publicou ?outro_trabalho .
-  ?outro_profesor :publicou ?outro_trabalho .
+  ?outro_professor :publicou ?outro_trabalho .
 
-  FILTER (?outro_professor != ?professor && 
-				  ?professor != ?nao_professor &&
-					?nao_professor != ?outro_professor &&
-					?trabalho != ?outro_trabalho)
+	UNSAID { ?nao_professor a :Professor } .
+
+  FILTER (?outro_professor != ?professor)
 }

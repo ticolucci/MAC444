@@ -1,0 +1,6 @@
+-----------------------------------------------
+| professor | nao_professor | outro_professor |
+===============================================
+| :Fabio		| :Danilo_Sato	| :Alfredo				|
+| :Alfredo	| :Danilo_Sato	| :Fabio					|
+-----------------------------------------------
